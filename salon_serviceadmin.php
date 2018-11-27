@@ -48,12 +48,6 @@
 
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button " >NittayakanAdmin</a>
 
-      
-     
-
-
-
-
 </div> 
 
 
@@ -95,13 +89,25 @@
 <!-- Page content -->
 <div  style="margin-left:150px;margin-right:150px;">
 
-  <!-- Service Section -->
-  <div class="w3-container w3-padding-10" id="service">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">รายการบริการ</h3>
-    
-    <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-green w3-round w3-padding-large w3-lagge w3-block " >เพิ่มบริการ </a></p>
+ 
 
-  </div>
+
+
+
+<br>
+
+<div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
+    <div class="w3-container w3-center w3-round w3-pale-red" >
+      <h3>รายการบริการ</h3>
+    </div><p>
+    <div class="w3-container  w3-center" >
+ <!-- Service Section -->
+ <div class="w3-container w3-padding-10" id="service">
+  
+    
+  <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-green w3-round w3-padding-large w3-lagge w3-block " >เพิ่มบริการ </a></p>
+
+
 
 <!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->
 
@@ -110,8 +116,9 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">  
           
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p>
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
+        <br><br>
         <img src="img/7.jpg" alt="ทำสีผม" style="width:100%">
         <!-- ปุ่มกดแสดงชื่อการบริการ -->
         <p class="w3-center"><a href="#wedding" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
@@ -120,24 +127,27 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p>   
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button> 
+        <br><br>
         <img src="img/11.jpg" alt="House" style="width:100%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-pink w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p> 
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
+        <br><br>
         <img src="img/11.jpg" alt="House" style="width:100%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ยืดผม</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p> 
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
+        <br><br>
         <img src="img/7.jpg" alt="House" style="width:100%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-pink w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
@@ -148,37 +158,83 @@
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p> 
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
+        <br><br>
         <img src="img/9.jpg" alt="House" style="width:99%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p> 
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button> 
+        <br><br>
         <img src="img/9.jpg" alt="House" style="width:99%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-pink w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-small w3-lagge " >ลบ </a>  </p> 
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
+        <br><br>
         <img src="img/9.jpg" alt="House" style="width:99%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-      <p class="w3-right"><a href="#แก้ไข" class="w3-button w3-yellow w3-round w3-padding-small w3-lagge " >แก้ไข </a>  
-      <a href="#ลบ" class="w3-button w3-red w3-round w3-padding-smallw3-lagge " >ลบ </a>  </p> 
+      <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button> 
+        <br><br>
         <img src="img/9.jpg" alt="House" style="width:99%">
         <p class="w3-center"><a href="#wedding" class="w3-button w3-pink w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
   </div>
+
+
+<br><br>
+ 
+
+ <form class="w3-container " action="/action_page.php">
+  
+ 
+  <label>
+   
+  </label>
+  </form>
+</div>
+
+
+
+
+       
+   </div>  
+</div>  
+
+  
+ 
+
+
+ <!-- หน้าต่างที่เด้งขึ้นมาเพื่อกดตกลงหรือยกเลิก -->
+ <div id="subscribe" class="w3-modal">
+ <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round"style="width:50%;">
+   <div class="w3-container w3-white w3-center">
+     <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
+     <h2>ยืนยันการลบ</h2>
+     <div class="w3-container w3-center w3-section ">
+
+     <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ตกลง</button>
+       <a href="test.php" class="w3-button w3-round w3-grey"><i class="fas fa-caret-left"></i> ยกเลิก</a>
+       
+     </div>
+   </div>
+ </div>
+</div>
+ 
+
 
 
 </body>

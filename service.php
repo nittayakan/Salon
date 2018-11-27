@@ -73,12 +73,21 @@
   </div>
 </div>
 
-<!-- Page content -->
-<div  style="margin-left:150px;margin-right:150px;">
+
+
+<br>
+
+<div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
+    <div class="w3-container w3-center w3-round w3-pale-red" >
+      <h3>รายการบริการ</h3>
+    </div><p>
+    <div class="w3-container  w3-center" >
+
+
 
   <!-- Service Section -->
   <div class="w3-container w3-padding-10" id="service">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">รายการบริการ</h3>
+   
   </div>
 
 <!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>Ann Beauty</title>
+<title>Add Service</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@ body {
 input[type=text], input[type=text] {
     width: 50%;
     padding: 5px;
-    margin: 0px 0 62px 0;
+    margin: 0px 0 20px 0;
     display: inline-block;
     border: none;
     background: white;
@@ -43,7 +43,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 
-/* ตังค่าปุ่ม เพิ่มบริการ */
+/* ตังค่าปุ่ม เพิ่ม */
 .registerbtn {
     background-color: #4CAF50;
     color: white;
@@ -60,7 +60,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 </style>
-
 <body>
 
 <!-- Logo ร้าน -->
@@ -70,8 +69,8 @@ input[type=text]:focus, input[type=password]:focus {
 
 <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
 <div  style="margin-left:980px;margin-right:150px;">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
-      <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
+    <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
+    <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
 </div> 
 
 
@@ -96,9 +95,9 @@ input[type=text]:focus, input[type=password]:focus {
         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
-     <div class="w3-dropdown-hover  w3-col s2">
+    <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">ชำระเงิน</a>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
         <a href="#แจ้งชำระเงิน" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
         </div>
@@ -113,43 +112,80 @@ input[type=text]:focus, input[type=password]:focus {
 <!-- ฟอร์มเพิ่มบริการ -->
 
 
+<!-- Page content -->
+<div  style="margin-left:150px;margin-right:150px;">
 
-  <div class=" w3-card-4 w3-round w3-display-bottommiddle w3-center " style="width:108%"  >
-  <form action="/action_page.php">
-   <div class="w3-container w3-card-4 w3-round w3-display-middle w3-sand" style="width:70%" >
-   <p class="w3-left"><a href="#เพิ่มบริการ" class="w3-button w3-green w3-round w3-padding-large w3-lagge w3-block w3-center " >เพิ่มบริการ </a></p>
+<br>
+
+<div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
+    <div class="w3-container w3-center w3-round w3-pale-red" >
+      <h3>เพิ่มบริการ</h3>
+</div>
+    <div class="w3-container  w3-center" >
+ <!-- Service Section -->
+ <div class="w3-container w3-padding-10" id="service">
+ <div class="w3-row">
+                                <div class="w3-col m8">
+                                    <p class="w3-right-align">ชื่อบริการ : <input type="text"  class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">รายละเอียด : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">ระยะเวลาที่ทำ : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">รูปภาพ : <input class=" w3-border  " style="width:350px;" name="imageUpload" type="file" required>
+                                    
+                                    </p>
+                                 </div>                       
+                                </div>
+
+<a href="service.php" class="w3-button w3-round   w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ยกเลิก</button>
+
+
+                            
+
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+    <!-- <div class="w3-row-padding w3-col m12" style="margin:0 5px;"> 
+        <label for="fistname"><b>ชื่อโปรโมชั่น : </b> </label> 
+         <input type="text" div class="w3-padding-10 "> 
+     </div>    
+            <br>
+     <div class="w3-row-padding w3-col m12" style="margin:0 5px;">        
+            <label for="lastname"><b>รายละเอียด : </b> </label> 
+            <input type="text" placeholder="ระบุรายละเอียด" name="lname" required>
+            </div>
+            <br>
+    <div class="w3-row-padding w3-col m12" style="margin:0 5px;">        
+        <label for="email"><b>ระยะเวลา : </b></label>
+         <input type="text" placeholder="ระบุระยะเวลา" name="address" required>
+    </div>
+     <br>
    
-    
-    <br><br><br><br> 
-    
-    <div class="w3-row-padding" style="margin:0 100px;">
-        
-    <label for="fistname"><b>ชื่อบริการ : </b> </label> 
-
-     <input type="text" div class="w3-padding-10 "> 
-     <br>
-     <label for="lastname"><b>ราคา : </b> </label> 
-     
-     <input type="text" placeholder="ระบุนามสกุล" name="lname" required>
-     <br>
-     <label for="email"><b>ระยะเวลา : </b></label>
-     <input type="text" placeholder="ระบุที่อยู่" name="address" required>
-     <br>
-     
-     <label for="email"><b>คำอธิบาย : </b></label>
-     <input type="text" name="email" required>
-     <br>
      <label for="tel"><b>รูปภาพ : </b></label>
-     <input type="text"name="tel" required>
+     <input type="text"name="" required>
    
      <br>
 
     <button type="submit" class="registerbtn w3-green w3-round w3-padding-large w3-lagge ">เพิ่ม</button>
     <a href="#ยกเลิก" class="w3-button w3-red w3-round w3-padding-large w3-lagge " >ยกเลิก </a>  </p>
-    </div>
+        </div>
     </form>
   </div>
- 
+  -->
+
+
+
+
+
 
 
 

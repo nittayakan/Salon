@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>servicedetail</title>
+<title>history</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,32 +18,42 @@
   display: block;
 }
 
-* {
-    box-sizing: border-box;
+
+/* ตั้งค่า input fields */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 7px;
+    margin: 3px 0 15px 0;
+    display: inline-block;
+    background: white;
 }
 
-.row {
-    display: flex;
+input[type=text]:focus, input[type=password]:focus {
+    background-color:#FFDEAD;
+    outline: none;
 }
 
-/* Create two equal columns that sits next to each other */
-.column1 {
-    flex: 20%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+
+/* ตังค่าปุ่ม สมัครสมาชิก */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
-.column2 {
-    flex: 50%;
-    padding: 20px;
-    height:300px;
-    margin:10px;
-    
+.registerbtn:hover {
+    opacity: 1;
 }
+
 
 </style>
-</head>
 
 <body>
+
 <div class="w3-right w3-hide-small">
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
       <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
@@ -85,28 +95,70 @@
  <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
 </div>
 </div>
-
+</div>
 <br>
 
-<div class="w3-content  w3-padding w3-card w3-round-large w3-pale-red "style="width: 75%;">
-	<div class="row">
-  <div class="column1" >
-    <img src="img/11.jpg" style="width:300px;height:280px">
-  </div>
-  <div class="column2 w3-card w3-round w3-white">
-  	<h4>ชื่อบริการ:</h4>
-    <p>ระยะเวลาโดยประมาณ:</p>
-    <p>ราคาโดยประมาณ:</p><br>
-    <div class="w3-container w3-right w3-section">
-        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">จองคิว</button>
-      </div>
-  </div>
-  		  		
-	  
-  
+<div class="w3-container w3-card w3-round w3-padding"  style="margin-left:200px;margin-right:200px;">
+<div class="w3-container  w3-round w3-pale-red" >
+      <h3>ประวัติการจองคิว</h3>
+    </div><p>
+
+  <table class="w3-table-all w3-hoverable w3-margin"style="width: 90%;">
+    <thead>
+      <tr class="w3-light-grey">
+        <th>ลำดับ</th>
+        <th>ชื่อบริการ</th>
+        <th>พนักงานให้บริการ</th>
+        <th>เบอร์โทรศัพท์</th>
+        <th>เพศ</th>
+        <th>วันที่จอง</th>
+        <th>เวลา</th>
+        <th>สถานะการจอง</th>
+        <th>สถานะการชำระเงิน</th>
+        <th></th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>1</td>
+      <td>ทำเล็บ</td>
+      <td>xxx</td>
+      <td>0845266795</td>
+      <td>หญิง</td>
+      <td>15/01/62</td>
+      <td>9.00</td>
+      <td>อนุมัติแล้ว</td>
+      <td>ชำระเงินแล้ว</td>
+      <td><div class="w3-container w3-right w3-section">
+        <a href="salon_update_booking.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
+        <button type="submit" name="submit" class="w3-btn w3-round w3-red w3-right">ลบ</button>
+      </div></td>
+    </tr>
+    <tr>
+    <td>2</td>
+      <td>ตัดผม</td>
+      <td>xxx</td>
+      <td>0862145321</td>
+      <td>หญิง</td>
+      <td>15/01/62</td>
+      <td>10.00</td>
+      <td>รออนุมัติ</td>
+      <td>ชำระเงินแล้ว</td>
+      <td><div class="w3-container w3-right w3-section">
+        <a href="salon_update_booking.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
+        <button type="submit" name="submit" class="w3-btn w3-round w3-red w3-right">ลบ</button>
+      </div></td>
+    </tr>
+    
+  </table><p>
+
 </div>
-</div>
-<br>	
+
+
+
+
+<b> <br> 
+
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>

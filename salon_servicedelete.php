@@ -201,7 +201,7 @@
       <div class="w3-container w3-center w3-section ">
 
       <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ตกลง</button>
-        <a href="test.php" class="w3-button w3-round w3-grey"><i class="fas fa-caret-left"></i> ยกเลิก</a>
+        <a href="salon_servicedelete.php" class="w3-button w3-round w3-grey"><i class="fas fa-caret-left"></i> ยกเลิก</a>
         
       </div>
     </div>

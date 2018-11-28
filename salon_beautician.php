@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>servicedetail</title>
+<title>deletebeautician</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,32 +18,11 @@
   display: block;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.row {
-    display: flex;
-}
-
-/* Create two equal columns that sits next to each other */
-.column1 {
-    flex: 20%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-.column2 {
-    flex: 50%;
-    padding: 20px;
-    height:300px;
-    margin:10px;
-    
-}
 
 </style>
-</head>
 
 <body>
+
 <div class="w3-right w3-hide-small">
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
       <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
@@ -51,7 +30,7 @@
 
 <!-- Logo ร้าน -->
 <div id="img_container">
-<img src="img/logo.png" />
+<img src="img/test3.png" />
 </div>
 
 <!-- Navbar -->
@@ -85,28 +64,66 @@
  <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
 </div>
 </div>
-
+</div>
 <br>
 
-<div class="w3-content  w3-padding w3-card w3-round-large w3-pale-red "style="width: 75%;">
-	<div class="row">
-  <div class="column1" >
-    <img src="img/11.jpg" style="width:300px;height:280px">
-  </div>
-  <div class="column2 w3-card w3-round w3-white">
-  	<h4>ชื่อบริการ:</h4>
-    <p>ระยะเวลาโดยประมาณ:</p>
-    <p>ราคาโดยประมาณ:</p><br>
-    <div class="w3-container w3-right w3-section">
-        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">จองคิว</button>
+<div class="w3-container w3-card w3-round w3-padding"  style="margin-left:200px;margin-right:200px;">
+<div class="w3-container  w3-round w3-pale-red" >
+      <h3>พนักงานทั้งหมด</h3>
+    </div><p>
+
+  <table class="w3-table-all w3-hoverable w3-margin"style="width: 90%;">
+    <thead>
+      <tr class="w3-light-grey">
+        <th>ลำดับ</th>
+        <th>ชื่อ</th>
+        <th>นามสกุล</th>
+        <th>เบอร์โทรศัพท์</th>
+        <th>เพศ</th>
+        <th>ที่อยู่</th>
+        <th>รหัสบัตรประชาชน</th>
+        <th>สถานะ</th>
+         
+        <th></th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>1</td>
+      <td>aaa</td>
+      <td>bbb</td>
+      <td>0845266795</td>
+      <td>หญิง</td>
+      <td>23/1 ม.5 ถ. ต.</td>
+      <td>x-xxxx-xxxxx-xx-x</td>
+      <td>Admin</td>
+      <td><div class="w3-container w3-right w3-section">
+        <a href="salon_beautician.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
+        <button class="w3-button w3-round w3-red" onclick="document.getElementById('beautician').style.display='block'">ลบ</button>
+      </div></td>
+    </tr>
+    
+  </table><p>
+
+</div>
+<div id="beautician" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round"style="width:35%;">
+    <div class="w3-container w3-white w3-center">
+      
+      <h2>ยืนยันการลบพนักงาน</h2>
+     <div class="w3-container w3-center w3-section ">
+        <a href="salon_beautician.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
+        <button class="w3-button w3-round w3-amber" onclick="document.getElementById('beautician').style.display='block'">ตกลง</button>
       </div>
+    </div>
   </div>
-  		  		
-	  
-  
 </div>
-</div>
-<br>	
+
+
+
+
+<b> <br> 
+
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>

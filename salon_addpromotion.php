@@ -30,8 +30,8 @@ body {
 /* ตั้งค่า input fields */
 input[type=text], input[type=text] {
     width: 50%;
-    padding: 10px;
-    margin: 0px 0 70px 0;
+    padding: 5px;
+    margin: 0px 0 20px 0;
     display: inline-block;
     border: none;
     background: white;
@@ -43,7 +43,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 
-/* ตังค่าปุ่ม เพิ่มบริการ */
+/* ตังค่าปุ่ม เพิ่ม */
 .registerbtn {
     background-color: #4CAF50;
     color: white;
@@ -112,27 +112,62 @@ input[type=text]:focus, input[type=password]:focus {
 <!-- ฟอร์มเพิ่มบริการ -->
 
 
-<div class=" w3-card-4 w3-round w3-display-bottommiddle w3-center " style="width:108%"  >
-  <form action="/action_page.php">
-<div class="w3-container w3-card-4 w3-round w3-display-middle w3-sand" style="width:70%" >
-<p class="w3-left"><a href="#เพิ่มบริการ" class="w3-button w3-green w3-round w3-padding-large w3-lagge w3-block w3-center " >เพิ่มโปรโมชั่น </a></p>
-   
-    
-    <br><br><br><br> 
-    
- <div class="w3-row-padding" style="margin:0 5px;">
-        
-        
-    <label for="fistname"><b>ชื่อโปรโมชั่น : </b> </label> 
+<!-- Page content -->
+<div  style="margin-left:150px;margin-right:150px;">
 
-     <input type="text" div class="w3-padding-10 "> 
-     <br>
-     <label for="lastname"><b>รายละเอียด : </b> </label> 
-     
-     <input type="text" placeholder="ระบุรายละเอียด" name="lname" required>
-     <br>
-     <label for="email"><b>ระยะเวลา : </b></label>
-     <input type="text" placeholder="ระบุระยะเวลา" name="address" required>
+<br>
+
+<div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
+    <div class="w3-container w3-center w3-round w3-pale-red" >
+      <h3>เพิ่มโปรโมชั่น</h3>
+</div>
+    <div class="w3-container  w3-center" >
+ <!-- Service Section -->
+ <div class="w3-container w3-padding-10" id="service">
+ <div class="w3-row">
+                                <div class="w3-col m8">
+                                    <p class="w3-right-align">ชื่อโปรโมชั่น : <input type="text"  class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">รายละเอียด : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">ระยะเวลาโปรโมชั่น : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">รูปภาพ : <input class=" w3-border  " style="width:350px;" name="imageUpload" type="file" required>
+                                    
+                                    </p>
+                                 </div>                       
+                                </div>
+
+<a href="promotion.php" class="w3-button w3-round   w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
+        <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ยกเลิก</button>
+
+
+                            
+
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+    <!-- <div class="w3-row-padding w3-col m12" style="margin:0 5px;"> 
+        <label for="fistname"><b>ชื่อโปรโมชั่น : </b> </label> 
+         <input type="text" div class="w3-padding-10 "> 
+     </div>    
+            <br>
+     <div class="w3-row-padding w3-col m12" style="margin:0 5px;">        
+            <label for="lastname"><b>รายละเอียด : </b> </label> 
+            <input type="text" placeholder="ระบุรายละเอียด" name="lname" required>
+            </div>
+            <br>
+    <div class="w3-row-padding w3-col m12" style="margin:0 5px;">        
+        <label for="email"><b>ระยะเวลา : </b></label>
+         <input type="text" placeholder="ระบุระยะเวลา" name="address" required>
+    </div>
      <br>
    
      <label for="tel"><b>รูปภาพ : </b></label>
@@ -142,10 +177,15 @@ input[type=text]:focus, input[type=password]:focus {
 
     <button type="submit" class="registerbtn w3-green w3-round w3-padding-large w3-lagge ">เพิ่ม</button>
     <a href="#ยกเลิก" class="w3-button w3-red w3-round w3-padding-large w3-lagge " >ยกเลิก </a>  </p>
-    </div>
+        </div>
     </form>
   </div>
- 
+  -->
+
+
+
+
+
 
 
 

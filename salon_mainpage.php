@@ -2,7 +2,7 @@
 <html>
 <head> 
 <meta name="viewport" content="width=device-width, initial-scale=1">      
-<title>คนสวย</title>
+<title>หน้าหลัก</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -138,8 +138,8 @@ img {vertical-align: middle;}
 
 <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
 <div  style="margin-left:980px;margin-right:150px;">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
-      <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
+      <a href="salon_login.php" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
+      <a href="salon_register.php" class="w3-bar-item w3-button">สมัครสมาชิก</a>
 </div> 
 
 
@@ -147,21 +147,21 @@ img {vertical-align: middle;}
      <!-- Navbar -->
   <div class="w3-row w3-padding w3-pale-red" style="margin-left:150px;margin-right:150px;">
     <div class="w3-col s2">
-      <a href="#หน้าแรก" class="w3-button w3-pale-red w3-pale-red w3-block">หน้าแรก</a>
+      <a href="salon_mainpage.php" class="w3-button w3-pale-red w3-pale-red w3-block">หน้าแรก</a>
     </div>
     <div class="w3-col s2">
-      <a href="#รายการบริการ" class="w3-button w3-pale-red w3-pale-red w3-block">รายการบริการ</a>
+      <a href="service.php" class="w3-button w3-pale-red w3-pale-red w3-block">รายการบริการ</a>
     </div>
     <div class="w3-col s2">
-      <a href="#โปรโมชั่น" class="w3-button w3-pale-red w3-pale-red w3-block">โปรโมชั่น</a>
+      <a href="salon_promotioncus.php" class="w3-button w3-pale-red w3-pale-red w3-block">โปรโมชั่น</a>
     </div>
 
     <!-- Navbar ที่มี Dropdown-->
         <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pale-red w3-pale-red w3-block">จองคิว</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
-        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
+        <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
+        <a href="salon_booking_hiatory.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
      <div class="w3-dropdown-hover  w3-col s2">

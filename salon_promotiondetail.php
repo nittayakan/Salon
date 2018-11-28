@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>       
-<title>servicedetail</title>
-
+<head>
+<title>promotiondetail</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,12 +10,12 @@
 
 <style>
 
-
  #img_container img{
   height: 200px;
   margin: auto auto;
   display: block;
 }
+
 
 * {
     box-sizing: border-box;
@@ -39,10 +38,8 @@
     margin:10px;
     
 }
-
 </style>
 </head>
-
 <body>
 <div class="w3-right w3-hide-small">
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
@@ -85,18 +82,17 @@
  <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
 </div>
 </div>
-
 <br>
-
 <div class="w3-content  w3-padding w3-card w3-round-large w3-pale-red "style="width: 75%;">
 	<div class="row">
   <div class="column1" >
     <img src="img/11.jpg" style="width:300px;height:280px">
   </div>
   <div class="column2 w3-card w3-round w3-white">
-  	<h4>ชื่อบริการ:</h4>
+  	<h4>ชื่อโปรโมชั่น:</h4>
     <p>ระยะเวลาโดยประมาณ:</p>
-    <p>ราคาโดยประมาณ:</p><br>
+    <p>ราคาโดยประมาณ:</p>
+    <p class="expire w3-text-red">* วันหมดอายุ: </p>
     <div class="w3-container w3-right w3-section">
         <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">จองคิว</button>
       </div>
@@ -106,7 +102,7 @@
   
 </div>
 </div>
-<br>	
+<br>
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>

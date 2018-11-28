@@ -110,7 +110,7 @@
 
 
       
-      <a href="Service.php" class="w3-button w3-round   w3-yellow w3-"><i class="fas fa-caret-left"></i> แก้ไข</a>
+      <a href="Service.php" class="w3-button w3-round   w3-yellow "><i class="fas fa-caret-left"></i> แก้ไข</a>
         <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
 
         <br><br>

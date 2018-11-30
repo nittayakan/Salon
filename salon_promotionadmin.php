@@ -163,18 +163,9 @@
    
   </label>
   </form>
-</div>
-
-
-
-
-       
+</div> 
    </div>  
 </div>  
-
-  
- 
-
 
  <!-- หน้าต่างที่เด้งขึ้นมาเพื่อกดตกลงหรือยกเลิก -->
  <div id="subscribe" class="w3-modal">
@@ -192,7 +183,14 @@
  </div>
 </div>
   
+<b> <br> 
 
+<footer class="w3-center  w3-padding-16 w3-opacity ">
+  <div class="w3-xlarge w3-section">
+   <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
+   <a href="" class="fa fa-instagram w3-hover-opacity w3-large"> </a>
+  </div>
+</footer>
 
 
   

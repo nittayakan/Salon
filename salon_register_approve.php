@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>Approve  </title>
+<title>Approve</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,8 +14,7 @@
 #img_container img{
   height: 200px;
   margin: auto auto;
-  display: block;
-}
+  display: block;}
 
 /* ตั้งค่า input fields */
 input[type=text], input[type=password] {
@@ -42,7 +41,7 @@ input[type=text]:focus, input[type=password]:focus {
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button " >NittayakanAdmin</a>
     </div> 
 <!-- Navbar -->
-<div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
+    <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
     <div class="w3-col s2">
         <a href="#หน้าแรก" class="w3-button  w3-pink">หน้าแรก</a>
     </div>
@@ -51,15 +50,15 @@ input[type=text]:focus, input[type=password]:focus {
     </div>
     <div class="w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink">โปรโมชั่น</a>
-</div>
+    </div>
 
 <!-- Navbar ที่มี Dropdown-->
    <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink">จองคิว</a>     
-    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pink">เพิ่มรายการจอง</a>
         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pink">ประวัติการจอง</a>
-    </div>
+        </div>
     </div>
     <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
@@ -114,7 +113,7 @@ input[type=text]:focus, input[type=password]:focus {
     <option value="1">ชำระเงินแล้ว</option>
     <option value="2">ยังไม่ชำระเงิน</option></td><p>
       <td><div class="w3-container w3-right w3-section">
-      <a href="Service.php" class="w3-button w3-round   w3-green"><i class=""></i> ตกลง</a>
+      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-green"><i class="w3-block"></i> ตกลง </a>
         <a href="salon_register_approve.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('subscribe').style.display='block'">แก้ไข</button>
       </div></td>
     </tr>
@@ -134,12 +133,8 @@ input[type=text]:focus, input[type=password]:focus {
     <option value="2">ยังไม่ชำระเงิน</option></td><p></td>
       <td><div class="w3-container w3-right w3-section">
           
-      <a href="Service.php" class="w3-button w3-round  w3-green"><i class=""></i> ตกลง</a>
-        <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button>
-
-
-
-        
+      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-green"><i class=""></i> ตกลง</a>
+      <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>
     </tr>
     
@@ -148,8 +143,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 
-<b> <br> 
-
+<!-- <b> <br> 
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
@@ -157,7 +151,7 @@ input[type=text]:focus, input[type=password]:focus {
 
   </div>
  
-</footer>
+</footer> -->
 
 </body>
 </html>

@@ -56,8 +56,8 @@
         <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">จองคิว</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
-        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
+        <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
+        <a href="salon_booking_hiatory.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
      <div class="w3-dropdown-hover  w3-col s2">
@@ -82,9 +82,7 @@
     <div class="w3-container  w3-center" >
 
   <!-- Service Section -->
-  <div class="w3-container w3-padding-10" id="service">
-   
-  </div>
+  <div class="w3-container w3-padding-10" id="service">  </div>
 
 <!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->
   <div class="w3-row-padding">
@@ -92,7 +90,7 @@
       <div class="w3-display-container">   
         <img src="img/P1.jpg" alt="ทำสีผม" style="width:100%">
         <!-- ปุ่มกดแสดงชื่อการบริการ -->
-        <p class="w3-center"><a href="#wedding" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
+        <p class="w3-center"><a href="salon_promotiondetail.php" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
    
 
 
@@ -120,6 +118,10 @@
       </div>
     </div>
   </div>
+
+ 
+
+
 
 
   

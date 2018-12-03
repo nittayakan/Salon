@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>login</title>
+<title>กรุณาเข้าสู่ระบบ</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
 }
 /* ตั้งค่าinputข้อมูล */
     input[type=text], input[type=password] {
-    width: 80%;
+    width: 50%;
     }
 /* ตั้งค่าปุ่มเข้าสู่ระบบ */
    button {
@@ -60,15 +60,15 @@
         <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button  w3-pink">จองคิว</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pink">เพิ่มรายการจอง</a>
-        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pink">ประวัติการจอง</a>
+        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
+        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
      <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pink">รายละเอียดการชำระเงิน</a>
-        <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pink">แจ้งชำระเงิน</a>
+        <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
+        <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
         </div>
         </div>  
     <div class="w3-col s2">
@@ -80,7 +80,7 @@
   <br><br>
   <div class="w3-content w3-padding w3-card-4 w3-round-large" style="max-width:600px"> 
     <div class=" w3-padding w3-center w3-round w3-pale-red"style="max-width:600px">
-      <h3>เข้าสู่ระบบ</h3>
+      <h3>กรุณาเข้าสู่ระบบก่อนทำการจอง</h3>
     </div>
     <br>
    <div class="w3-containern w3-center" >
@@ -89,11 +89,14 @@
 
     <label for="psw"><b>Password</b></label><p>
     <input type="password"  name="psw" required><p>
-        
-    <button type="submit">เข้าสู่ระบบ</button><p>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+   
+
+  
+          	
+              <div class=" m3 w3-margin-bottom">
+              <div class="w3-display-container">
+              <a href="salon_register.php" class="w3-button w3-round w3-gray  ">สมัครสมาชิก  </a>
+              <a href="Test.php" class="w3-button  w3-pale-red  ">เข้าสู่ระบบ</a>       
     </div>
   </div>
   <b> <br> 

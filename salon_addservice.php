@@ -31,7 +31,7 @@ body {
 input[type=text], input[type=text] {
     width: 50%;
     padding: 5px;
-    margin: 0px 0 20px 0;
+    margin: 0px  20px 50;
     display: inline-block;
     border: none;
     background: white;
@@ -127,7 +127,8 @@ input[type=text]:focus, input[type=password]:focus {
  <div class="w3-row">
                                 <div class="w3-col m8">
                                     <p class="w3-right-align">ชื่อบริการ : <input type="text"  class=" w3-border  "></input></p>
-                                    <p class="w3-right-align">รายละเอียด : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">คำอธิบาย : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">ช่วงราคา : <input type="text" class=" w3-border  "></input></p>
                                     <p class="w3-right-align">ระยะเวลาที่ทำ : <input type="text" class=" w3-border  "></input></p>
                                     <p class="w3-right-align">รูปภาพ : <input class=" w3-border  " style="width:350px;" name="imageUpload" type="file" required>
                                     

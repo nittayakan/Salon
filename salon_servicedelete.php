@@ -14,17 +14,9 @@
  #img_container img{
   height: 200px;
   margin: auto auto;
-  display: block;
-  
+  display: block;}
 
-
-    
-
-
-
-}
  
-
 
  </style>
 </head>
@@ -119,10 +111,10 @@
           
 
 
-           <div class="w3-container w3-right w3-section ">
-        <a href="Service.php" class="w3-button w3-round   w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
+      <div class="w3-container w3-right w3-section ">
+        <a href="Service.php" class="w3-button w3-round  w3-yellow"><i class="fas fa-caret-left"></i> แก้ไข</a>
         <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
-      </div>
+  </div>
         
      
         <img src="img/7.jpg" alt="ทำสีผม" style="width:100%">
@@ -174,7 +166,6 @@
 
   <form class="w3-container " action="/action_page.php">
    
-  
    <label>
     
    </label>

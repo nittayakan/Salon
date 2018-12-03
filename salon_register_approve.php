@@ -110,9 +110,17 @@ input[type=text]:focus, input[type=password]:focus {
 
 
       <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
-    <option value="1">ชำระเงินแล้ว</option>
+     <option value="1">ชำระเงินแล้ว</option>
     <option value="2">ยังไม่ชำระเงิน</option></td><p>
-      <td><div class="w3-container w3-right w3-section">
+      <td>
+      
+      
+      
+      <div class="w3-container w3-right w3-section">
+
+
+
+
       <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-green"><i class="w3-block"></i> ตกลง </a>
         <a href="salon_register_approve.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('subscribe').style.display='block'">แก้ไข</button>
       </div></td>
@@ -131,8 +139,7 @@ input[type=text]:focus, input[type=password]:focus {
       <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
     <option value="1">ชำระเงินแล้ว</option>
     <option value="2">ยังไม่ชำระเงิน</option></td><p></td>
-      <td><div class="w3-container w3-right w3-section">
-          
+      <td><div class="w3-container w3-right w3-section">    
       <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-green"><i class=""></i> ตกลง</a>
       <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>

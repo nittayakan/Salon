@@ -1,9 +1,7 @@
 <!Doctype html>
 <html>
-
 <head>
-
-<title>Report</title>
+<title>ข้อมูลส่วนตัว</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,22 +13,50 @@
 #img_container img{
   height: 200px;
   margin: auto auto;
-  display: block;} 
+  display: block;}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+    flex: 20%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+    flex: 50%;
+    padding: 20px;
+    height:400px;
+    margin:10px;
+    
+}
+
+
 </style>
+
 <body>
  <!-- Logo ร้าน -->
  <div id="img_container">
  <img src="img/Test3.png" />
- </div>
-<!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
+
+ <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
 <div  style="margin-left:1005px;margin-right:150px;">
-<div class="w3-dropdown-hover w3-col s2 w3-top">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " >NittayakanAdmin</a>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-      <a href="" class="w3-bar-item w3-button w3-pale-red">ข้อมูลส่วนตัว</a>
-      <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ออกจากระบบ</a></div>
-</div>
-</div> 
+        <div class="w3-dropdown-hover w3-col s2 w3-top">
+            <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " >ParateeUser</a>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="" class="w3-bar-item w3-button w3-pale-red">ข้อมูลส่วนตัว</a>
+            <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ออกจากระบบ</a></div>
+        </div>
+        </div> 
+        </div>
 </div>
 
 <!-- Navbar -->
@@ -67,32 +93,50 @@
 </div>
 <br>
 
-
 <!-- // แถบเรียกดูรายงานการจอง -->
-<div class="w3-container w3-card w3-round w3-padding"  style="margin-left:150px;margin-right:150px; ">
+<div class="w3-container w3-card w3-round w3-padding"  style="margin-left:150px;margin-right:150px;">
     <div class="w3-container  w3-round w3-pale-red w3-center" >
-      <h3>เรียกดูรายงานการจอง</h3>
-    </div><p>
+      <h3>ข้อมูลส่วนตัว</h3>
+</div><p>
 
-     <thead>
-      <!-- <tr class="w3-light-grey w3-center"> -->
-        <th><b>เดือน</b></th>
-    </thead>
-    <br>
-    <td><select class="w3-select " name="gender"style="width:95px;" ><option value="" disabled selected>เลือกเดือน</option>
-    <option value="1">มกราคม</option>
-    <option value="2">กุมภาพันธ์</option>
-    
-    <!-- <option value="3">มีนาคม</option>
-    <option value="4">เมษายน</option>
-    <option value="5">พฤษภาคม</option>
-    <option value="6">มิถุนายน</option>
-    <option value="7">กรกฎาคม</option>
-    <option value="8">สิงหาคม</option>
-    <option value="9">กันยายน</option>
-    <option value="10">ตุลาคม</option>
-    <option value="11">พฤศจิกายน</option>
-    <option value="12">ธันวาคม</option> -->
+<div class="w3-content w3-round-large "style="width: 100%;">
+	<div class="row">
+    <div class="column1" >
+    <img src="img/13.jpg" style="width:300px;height:380px">
+</div>
+<div class="column2 w3-card w3-round w3-white">
+  	
+<div class="w3-row">
+                                <div class="w3-col m4">
+                                    <p class="w3-right-align">ชื่อ : </p>
+                                    <p class="w3-right-align">นามสกุล : </p>
+                                    <p class="w3-right-align">ที่อยู่ : </p>
+                                    <p class="w3-right-align">E-mail : </p>
+                                    <p class="w3-right-align">เบอร์โทรศัพท์ : </p>
+                                    <p class="w3-right-align">รหัสบัตรประชาชน : </p>
+                                    <p class="w3-right-align">เพศ : </p>
+ 
+                                    </p>
+                                 </div>   
+
+
+
+   
+  </div>
+ 
+  <div class=" w3-right w3-section">
+          	
+      <div class=" m3 w3-margin-bottom">
+      <div class="w3-display-container">
+      <a href="Service.php" class="w3-button w3-round w3-pale-red  ">แก้ไขข้อมูลส่วนตัว  </a>
+      <a href="Service.php" class="w3-button  w3-gray  ">เปลี่ยนรหัสผ่าน</a>
+
+ 
+                                
+
+
+
+</div>
 </div>
 
 
@@ -100,7 +144,7 @@
 
 
 
-
 </body>
+
 </head>
 </html>

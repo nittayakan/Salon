@@ -31,7 +31,7 @@ body {
 input[type=text], input[type=text] {
     width: 50%;
     padding: 5px;
-    margin: 0px 0 20px 0;
+    margin: 0px 0 20px 20;
     display: inline-block;
     border: none;
     background: white;
@@ -135,7 +135,7 @@ input[type=text]:focus, input[type=password]:focus {
                                  </div>                       
                                 </div>
 
-<a href="promotion.php" class="w3-button w3-round   w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
+<a href="promotion.php" class="w3-button w3-round  w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
         <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ยกเลิก</button>
 
 

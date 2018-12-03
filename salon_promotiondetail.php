@@ -48,7 +48,7 @@
 
 <!-- Logo ร้าน -->
 <div id="img_container">
-<img src="img/logo.png" />
+<img src="img/Test3.png" />
 </div>
 
 <!-- Navbar -->
@@ -83,6 +83,8 @@
 </div>
 </div>
 <br>
+
+
 <div class="w3-content  w3-padding w3-card w3-round-large w3-pale-red "style="width: 75%;">
 	<div class="row">
   <div class="column1" >
@@ -93,6 +95,9 @@
     <p>ระยะเวลาโดยประมาณ:</p>
     <p>ราคาโดยประมาณ:</p>
     <p class="expire w3-text-red">* วันหมดอายุ: </p>
+
+
+    
     <div class="w3-container w3-right w3-section">
         <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">จองคิว</button>
       </div>

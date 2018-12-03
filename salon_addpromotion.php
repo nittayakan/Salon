@@ -59,6 +59,8 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 
+
+
 </style>
 <body>
 
@@ -127,7 +129,7 @@ input[type=text]:focus, input[type=password]:focus {
  <div class="w3-row">
                                 <div class="w3-col m8">
                                     <p class="w3-right-align">ชื่อโปรโมชั่น : <input type="text"  class=" w3-border  "></input></p>
-                                    <p class="w3-right-align">รายละเอียด : <input type="text" class=" w3-border  "></input></p>
+                                    <p class="w3-right-align">คำอธิบาย : <input type="text" class=" w3-border  "></input></p>
                                     <p class="w3-right-align">ระยะเวลาโปรโมชั่น : <input type="text" class=" w3-border  "></input></p>
                                     <p class="w3-right-align">รูปภาพ : <input class=" w3-border  " style="width:350px;" name="imageUpload" type="file" required>
                                     
@@ -139,6 +141,12 @@ input[type=text]:focus, input[type=password]:focus {
         <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ยกเลิก</button>
 
 
+
+
+
+
+
+</div>
                             
 
 

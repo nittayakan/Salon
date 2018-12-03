@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>register</title>
+<title>history</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,23 +17,6 @@
   margin: auto auto;
   display: block;
 }
-
-
-/* ตั้งค่า input fields */
-input[type=text], input[type=password] {
-    width: 50%;
-    padding: 7px;
-    margin: 3px 0 15px 0;
-    display: inline-block;
-    background: white;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color:#FFDEAD;
-    outline: none;
-}
-
-
 
 
 </style>
@@ -83,39 +66,78 @@ input[type=text]:focus, input[type=password]:focus {
 </div>
 </div>
 <br>
-<!-- ฟอร์มสมัครสมาชิก -->
-<div class="w3-content  w3-center w3-padding w3-card-4 w3-round-large  "style="width: 80%;">
-    <div class="w3-container  w3-round w3-pale-red" >
-      <h3>สมัครสมาชิก</h3>
-    </div><p>
-  <div class="w3-row ">
-    <div class="w3-col m8 ">
-      <p class="w3-right-align">ชื่อ : <input type="text"></input></p>
-      <p class="w3-right-align">นามสกุล : <input type="text"></input></p>
-      <p class="w3-right-align">ที่อยู่ : <input type="text"></input></p>
-      <p class="w3-right-align">E-mail : <input type="text"></input></p>
-      <p class="w3-right-align">เบอร์โทรศัพท์ : <input type="text"></input></p>
-      <p class="w3-right-align">รหัสบัตรประชาชน : <input type="text"></input></p>
-      <p class="w3-right-align">Username : <input type="text"></input></p>
-      <p class="w3-right-align">Password : <input type="text"></input></p>
-      <p class="w3-right-align">เพศ :   
-    <select class="w3-select w3-right-align w3-border" name="gender" style="width: 50%;">
-      <option value="" disabled selected>เลือกเพศ</option>
-      <option value="1">ชาย</option>
-      <option value="2">หญิง</option>
-    </select> </p>
-    <p class="w3-right-align">รูปภาพ :  <input class=" w3-border " style="width:315px;" name="imageUpload" type="file" required></p>
-  
-    <div class="w3-container w3-right w3-section">
-        <a href="salon_register.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
-        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red ">สมัครสมาชิก</button>
-    </div>
-     </div>
-  </div>
- 
 
+<div class="w3-container w3-card w3-round w3-padding"  style="margin-left:200px;margin-right:200px;">
+<div class="w3-container  w3-round w3-pale-red" >
+      <h3>ประวัติการจองคิว</h3>
+    </div><p>
+
+  <table class="w3-table-all w3-hoverable w3-margin"style="width: 90%;">
+    <thead>
+      <tr class="w3-light-grey">
+        <th>ลำดับ</th>
+        <th>ชื่อบริการ</th>
+        <th>พนักงานให้บริการ</th>
+        <th>เบอร์โทรศัพท์</th>
+        <th>เพศ</th>
+        <th>วันที่จอง</th>
+        <th>เวลา</th>
+        <th>สถานะการจอง</th>
+        <th>สถานะการชำระเงิน</th>
+        
+        <th></th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>1</td>
+      <td>ทำเล็บ</td>
+      <td>xxx</td>
+      <td>0845266795</td>
+      <td>หญิง</td>
+      <td>15/01/2562</td>
+      <td>9.00</td>
+      <td>อนุมัติแล้ว</td>
+      <td>ชำระเงินแล้ว</td>
+      <td><div class="w3-container w3-right w3-section">
+        <a href="salon_update_booking.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
+        <button class="w3-button w3-round w3-red" onclick="document.getElementById('booking').style.display='block'">ลบ</button>
+      </div></td>
+    </tr>
+    <tr>
+    <td>2</td>
+      <td>ตัดผม</td>
+      <td>xxx</td>
+      <td>0862145321</td>
+      <td>หญิง</td>
+      <td>15/01/2562</td>
+      <td>10.00</td>
+      <td>รออนุมัติ</td>
+      <td>ชำระเงินแล้ว</td>
+      <td><div class="w3-container w3-right w3-section">
+        <a href="salon_update_booking.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
+        <button class="w3-button w3-round w3-red" onclick="document.getElementById('booking').style.display='block'">ลบ</button>
+      </div></td>
+    </tr>
+    
+  </table><p>
 
 </div>
+<div id="booking" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round"style="width:35%;">
+    <div class="w3-container w3-white w3-center">
+      
+      <h2>ยืนยันการลบการจองคิว</h2>
+     <div class="w3-container w3-center w3-section ">
+        <a href="salon_booking_history.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
+        <button class="w3-button w3-round w3-amber" onclick="document.getElementById('booking').style.display='block'">ตกลง</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <b> <br> 
 
 <footer class="w3-center  w3-padding-16 w3-opacity ">
@@ -126,7 +148,6 @@ input[type=text]:focus, input[type=password]:focus {
   </div>
  
 </footer>
-   
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>register</title>
+<title>paymentdetail</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,28 +18,10 @@
   display: block;
 }
 
-
-/* ตั้งค่า input fields */
-input[type=text], input[type=password] {
-    width: 50%;
-    padding: 7px;
-    margin: 3px 0 15px 0;
-    display: inline-block;
-    background: white;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color:#FFDEAD;
-    outline: none;
-}
-
-
-
-
 </style>
+</head>
 
 <body>
-
 <div class="w3-right w3-hide-small">
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
       <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
@@ -81,52 +63,38 @@ input[type=text]:focus, input[type=password]:focus {
  <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
 </div>
 </div>
-</div>
+
 <br>
-<!-- ฟอร์มสมัครสมาชิก -->
+
 <div class="w3-content  w3-center w3-padding w3-card-4 w3-round-large  "style="width: 80%;">
     <div class="w3-container  w3-round w3-pale-red" >
-      <h3>สมัครสมาชิก</h3>
+      <h3>รายละเอียดการชำระเงิน</h3>
     </div><p>
   <div class="w3-row ">
-    <div class="w3-col m8 ">
-      <p class="w3-right-align">ชื่อ : <input type="text"></input></p>
-      <p class="w3-right-align">นามสกุล : <input type="text"></input></p>
-      <p class="w3-right-align">ที่อยู่ : <input type="text"></input></p>
-      <p class="w3-right-align">E-mail : <input type="text"></input></p>
-      <p class="w3-right-align">เบอร์โทรศัพท์ : <input type="text"></input></p>
-      <p class="w3-right-align">รหัสบัตรประชาชน : <input type="text"></input></p>
-      <p class="w3-right-align">Username : <input type="text"></input></p>
-      <p class="w3-right-align">Password : <input type="text"></input></p>
-      <p class="w3-right-align">เพศ :   
-    <select class="w3-select w3-right-align w3-border" name="gender" style="width: 50%;">
-      <option value="" disabled selected>เลือกเพศ</option>
-      <option value="1">ชาย</option>
-      <option value="2">หญิง</option>
-    </select> </p>
-    <p class="w3-right-align">รูปภาพ :  <input class=" w3-border " style="width:315px;" name="imageUpload" type="file" required></p>
-  
-    <div class="w3-container w3-right w3-section">
-        <a href="salon_register.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
-        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red ">สมัครสมาชิก</button>
-    </div>
+     <div class="w3-col m4 w3-right-align w3-margin ">
+       <p>ชื่อ : 
+       <p>นามสกุล : 
+       <p>รายการบริการ : 
+       <p>ค่ามัดจำการจอง:
      </div>
-  </div>
- 
-
-
+        <div class="w3-col m13" >
+            <p ><img src="img/KTB.jpg" class=" w3-round" alt="ktb" style="width:40px;height:40px;"> เลขบัญชี : xxx-x-xxxxx-x , พร้อมเพย์ : xxx-xxxxxxx</p>
+        </div>
+        
+        <div class="w3-container  w3-margin">
+            <a href="salon_payment.php" class="w3-button w3-round w3-pink"> แจ้งชำระเงิน</a><p>
+        </div>
+    </div>
 </div>
-<b> <br> 
+<br>
 
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
    <a href="" class="fa fa-instagram w3-hover-opacity w3-large"> </a>
-
   </div>
  
 </footer>
-   
 
 </body>
 </html>

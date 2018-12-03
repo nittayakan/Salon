@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>       
-<title>register</title>
+<title>addbeautician</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -83,10 +83,10 @@ input[type=text]:focus, input[type=password]:focus {
 </div>
 </div>
 <br>
-<!-- ฟอร์มสมัครสมาชิก -->
+<!-- ฟอร์มเพิ่มพนักงาน -->
 <div class="w3-content  w3-center w3-padding w3-card-4 w3-round-large  "style="width: 80%;">
     <div class="w3-container  w3-round w3-pale-red" >
-      <h3>สมัครสมาชิก</h3>
+      <h3>เพิ่มพนักงาน</h3>
     </div><p>
   <div class="w3-row ">
     <div class="w3-col m8 ">
@@ -107,8 +107,8 @@ input[type=text]:focus, input[type=password]:focus {
     <p class="w3-right-align">รูปภาพ :  <input class=" w3-border " style="width:315px;" name="imageUpload" type="file" required></p>
   
     <div class="w3-container w3-right w3-section">
-        <a href="salon_register.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
-        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red ">สมัครสมาชิก</button>
+        <a href="salon_add_beautician.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
+        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">เพิ่มพนักงาน</button>
     </div>
      </div>
   </div>

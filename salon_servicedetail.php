@@ -51,7 +51,7 @@
 
 <!-- Logo ร้าน -->
 <div id="img_container">
-<img src="img/logo.png" />
+<img src="img/test3.png" />
 </div>
 
 <!-- Navbar -->
@@ -90,21 +90,23 @@
 
 <div class="w3-content  w3-padding w3-card w3-round-large w3-pale-red "style="width: 75%;">
 	<div class="row">
-  <div class="column1" >
-    <img src="img/11.jpg" style="width:300px;height:280px">
-  </div>
-  <div class="column2 w3-card w3-round w3-white">
-  	<h4>ชื่อบริการ:</h4>
-    <p>ระยะเวลาโดยประมาณ:</p>
-    <p>ราคาโดยประมาณ:</p><br>
-    <div class="w3-container w3-right w3-section">
-        <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">จองคิว</button>
+      <div class="column1" >
+        <img src="img/11.jpg" style="width:300px;height:280px">
       </div>
+    <div class="column2 w3-card w3-round w3-white">
+     <div class="w3-row ">
+        <div class="w3-col m4 ">
+          <p class="w3-right-align">ชื่อบริการ : 
+          <p class="w3-right-align">ราคาโดยประมาณ : 
+          <p class="w3-right-align">ระยะเวลาโดยประมาณ : 
+        </div>
+    </div>
+        <div class="w3-container w3-right w3-section">
+          <button type="submit" name="submit" class="w3-btn w3-round w3-pale-red">จองคิว</button>
+        </div>
   </div>
   		  		
-	  
-  
-</div>
+  </div>
 </div>
 <br>	
 <footer class="w3-center  w3-padding-16 w3-opacity ">

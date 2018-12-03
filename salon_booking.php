@@ -31,19 +31,6 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 
-
-/* ตังค่าปุ่ม จองคิว */
-.registerbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 5px 10px;
-    margin: 5px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
 </style>
 </head>
 <body>
@@ -94,56 +81,49 @@ input[type=text]:focus, input[type=password]:focus {
 <p>
 
 <div class="w3-content w3-padding w3-card-4 w3-round-large " style="width: 80%;"> 
-    <div class="w3-container w3-center w3-round w3-pale-red" >
+<div class="w3-container w3-center w3-round w3-pale-red" >
       <h3>จองคิวบริการ</h3>
     </div><p>
-    <div class="w3-container  w3-center" >
-     
-    <b>เพศ</b><p>
-     <select class="w3-select" name="gender"style="width:450px;">
-     <option value="" disabled selected>เลือกเพศ</option>
-     <option value="1">ชาย</option>
-     <option value="2">หญิง</option>
-     </select><p>
-
-     <b>บริการ</b><p>
-     <select class="w3-select" name="service"style="width:450px;">
-     <option value="" disabled selected>เลือกบริการ</option>
-     </select><p>
-
-     <b>ผู้ให้บริการ</b><p>
-     <select class="w3-select" name="beautician"style="width:450px;">
-     <option value="" disabled selected>เลือกช่าง</option>
-     </select><p>
-
-        <div class="w3-center ">
-         <p>
-         <label for="tel"><b>ช่วงเวลา</b></label><p>
-         <input type="text"  name="time" required>
-         </div>
-
-         <div class="w3-center">
-         <p>
-         <label for="date"><b>วันที่</b></label><p>
-         <input type="text"  name="date" required>
-         </div>
-
-        
-         <p>
-         <label for="tel"><b>เบอร์โทร</b></label><p>
-         <input type="text"  name="tel" required><p>
-
-         <p>
-         <label for="deposit"><b>ค่ามัดจำการจอง</b></label><p>
-         <input type="text"  name="deposit" required>  <b>บาท</b><p>
-        
-         <div class="w3-container w3-right w3-section ">
-        <a href="test.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
-        <button class="w3-button w3-round w3-pale-red" onclick="document.getElementById('booking').style.display='block'">จองคิวบริการ</button>
-      </div>
-        
-    </div>  
+    <div class="w3-row ">
+    <div class="w3-col m8 ">
+    <p class="w3-right-align">เพศ :  
+      <select class="w3-select w3-right-align w3-border" name="gender" style="width: 50%;">
+        <option value="" disabled selected>เลือกเพศ</option>
+        <option value="1">ชาย</option>
+        <option value="2">หญิง</option>
+      </select> </p>
+      <p class="w3-right-align">เลือกบริการ :  
+      <select class="w3-select w3-right-align w3-border" name="service" style="width: 50%;">
+        <option value="" disabled selected>เลือกบริการ</option>
+      </select> </p>
+      <p class="w3-right-align">เลือกผู้ให้บริการ :  
+      <select class="w3-select w3-right-align w3-border" name="service" style="width: 50%;">
+        <option value="" disabled selected>เลือกช่าง</option>
+      </select> </p>
+      <p class="w3-right-align">ช่วงเวลา : <input type="text"></input></p>
+      <p class="w3-right-align">วันที่ : <input type="text"></input></p>
+      <p class="w3-right-align">เบอร์โทรศัพท์ : <input type="text"></input></p>
+      <p class="w3-right-align">ค่ามัดจำการจอง : <input type="text"></input> </p>
+  
+          <div class="w3-container w3-right w3-section">
+            <a href="salon_booking.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
+            <button class="w3-button w3-round w3-pale-red" onclick="document.getElementById('booking').style.display='block'">จองคิวบริการ</button>
+          </div>
+     </div>
+  </div>
 </div>  
+<div id="booking" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round"style="width:35%;">
+    <div class="w3-container w3-white w3-center">
+      
+      <h2>ยืนยันการจองคิวบริการ</h2>
+     <div class="w3-container w3-center w3-section ">
+        <a href="salon_booking.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
+        <button class="w3-button w3-round w3-amber" onclick="document.getElementById('booking').style.display='block'">ตกลง</button>
+      </div>
+    </div>
+  </div>
+</div>
 
    <b> <br> 
    <footer class="w3-center  w3-padding-16 w3-opacity ">
@@ -155,18 +135,7 @@ input[type=text]:focus, input[type=password]:focus {
  
 </footer>
 
-<div id="booking" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round"style="width:35%;">
-    <div class="w3-container w3-white w3-center">
-      
-      <h2>ยืนยันการการจองคิวบริการ</h2>
-     <div class="w3-container w3-center w3-section ">
-        <a href="salon_booking.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
-        <button class="w3-button w3-round w3-amber" onclick="document.getElementById('booking').style.display='block'">ตกลง</button>
-      </div>
-    </div>
-  </div>
-</div>
+
    
 </body>
 </html>

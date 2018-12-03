@@ -25,8 +25,6 @@ body {
 
 
 
-
-
 /* ตั้งค่า input fields */
 input[type=text], input[type=text] {
     width: 50%;

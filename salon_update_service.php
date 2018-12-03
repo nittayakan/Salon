@@ -20,13 +20,12 @@
 /* ตั้งค่า input fields */
 input[type=text], input[type=password] {
     width: 50%;
-    padding: 5px;
+    padding: 7px;
     margin: 3px 0 15px 0;
     display: inline-block;
-    border: none;
     background: white;
 }
-/* ตั้งค่าช่องinputข้อมูล */
+
 input[type=text]:focus, input[type=password]:focus {
     background-color:#FFDEAD;
     outline: none;
@@ -77,60 +76,35 @@ input[type=text]:focus, input[type=password]:focus {
 </div>
 </div>
 <p><p>
+
 <div class="w3-content w3-center w3-padding w3-card-4 w3-round-large " style="width: 80%;"> 
     <div class="w3-container w3-center w3-round w3-pale-red" >
       <h3>แก้ไขรายการบริการ</h3>
     </div>
-    <div class="w3-container"  >
+   
       <!-- เลือกidที่ต้องการ -->
-      <p>
-        <label><b> เลือกรายการที่ต้องหารแก้ไข : </b></label><p>
-        <select name="id" class="w3-select"style="width:50%">
-        </select>
-      </p>
-      <p>
-        <label >
-          <b>ชื่อรายการบริการ</b>
-        </label><p>
-        <input class="w3-input w3-border" name="nameservice" type="text" required>
-      </p>
-      <p>
-        <label >
-          <b>ราคาโดยประมาณ</b>
-        </label><p>
-        <input class="w3-input w3-border" name="price" type="text" required>
-      </p>
-      <p>
-        <label>
-          <b>ระยะเวลาโดยประมาณ</b>
-        </label><p>
-        <input class="w3-input w3-border" name="timeduretion" type="text" required>
-      </p>
-      <p>
-        <label>
-          <b>เลือกรูปภาพ</b><p>
+      <div class="w3-row ">
+        <div class="w3-col m8 ">
+        <p>
+        <p class="w3-right-align">เลือกบริการที่ต้องการ :  
+        <select name="id" class="w3-select w3-border"style="width:50%">
+        </select></p>
+        <p>
+        <p class="w3-right-align">ชื่อบริการ: <input type="text"></input></p>
+        <p class="w3-right-align">ราคาโดยประมาณ : <input type="text"></input></p>
+        <p class="w3-right-align">ระยะเวลาโดยประมาณ : <input type="text"></input></p>
+        <p class="w3-right-align">ค่ามัดจำการจอง : <input type="text"></input></p>
+        <p class="w3-right-align">รูปภาพ :  <input class=" w3-border " style="width:315px;" name="imageUpload" type="file" required></p>
+  
+        <div class="w3-container w3-right w3-section">
+            <a href="salon_update_service.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
+            <button class="w3-button w3-round w3-pale-red" onclick="document.getElementById('service').style.display='block'">แก้ไขรายการบริการ</button>
+        </div>
 
-        <input class=" w3-border"  name="imageUpload" type="file" required>
-      </p>
-
-
-
-       <div class="w3-container w3-right w3-section ">
-        <a href="test.php" class="w3-button w3-round w3-grey"> ยกเลิก</a>
-        <button class="w3-button w3-round w3-pale-red" onclick="document.getElementById('service').style.display='block'">แก้ไขบริการ</button>
-      </div>
-
-    </div>
-</div>
-<b> <br> 
-<footer class="w3-center  w3-padding-16 w3-opacity ">
-  <div class="w3-xlarge w3-section">
-   <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
-   <a href="" class="fa fa-instagram w3-hover-opacity w3-large"> </a>
-
+     </div>
   </div>
- 
-</footer>
+</div>
+
 
 <div id="service" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round"style="width:35%;">
@@ -144,6 +118,17 @@ input[type=text]:focus, input[type=password]:focus {
     </div>
   </div>
 </div>
+
+<b> <br> 
+<footer class="w3-center  w3-padding-16 w3-opacity ">
+  <div class="w3-xlarge w3-section">
+   <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
+   <a href="" class="fa fa-instagram w3-hover-opacity w3-large"> </a>
+
+  </div>
+ 
+</footer>
+
 
 </body>
 </html>

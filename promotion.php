@@ -42,7 +42,7 @@
 
      <!-- Navbar -->
   <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
-    <div class="w3-col s2">
+    <div class="w3-col s3">
       <a href="#หน้าแรก" class="w3-button w3-pink w3-pink w3-block">หน้าแรก</a>
     </div>
     <div class="w3-col s2">
@@ -60,13 +60,13 @@
         <a href="salon_booking_hiatory.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
-     <div class="w3-dropdown-hover  w3-col s2">
+     <!-- <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">ชำระเงิน</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
         <a href="#แจ้งชำระเงิน" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
         </div>
-        </div>  
+        </div>   -->
     <div class="w3-col s2">
       <a href="#ติดต่อเรา" class="w3-button w3-pink w3-pink w3-block">ติดต่อเรา</a>
     </div>

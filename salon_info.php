@@ -43,21 +43,24 @@
 </style>
 
 <body>
+
+<!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก
+<div  style="margin-left:1005px;margin-right:150px;">
+        <div class="w3-dropdown-hover w3-col s2 w3-top">
+            <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " >ParateeUser</a>
+        <!-- <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="" class="w3-bar-item w3-button w3-pale-red">ข้อมูลส่วนตัว</a>
+            <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ออกจากระบบ</a></div>
+        </div> -->
+        </div> 
+        <!-- </div> --> -->
+
+
  <!-- Logo ร้าน -->
  <div id="img_container">
  <img src="img/Test3.png" />
 
- <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-<div  style="margin-left:1005px;margin-right:150px;">
-        <div class="w3-dropdown-hover w3-col s2 w3-top">
-            <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " >ParateeUser</a>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="" class="w3-bar-item w3-button w3-pale-red">ข้อมูลส่วนตัว</a>
-            <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ออกจากระบบ</a></div>
-        </div>
-        </div> 
-        </div>
-</div>
+ 
 
 <!-- Navbar -->
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">

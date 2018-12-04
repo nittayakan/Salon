@@ -66,16 +66,17 @@ input[type=text]:focus, input[type=password]:focus {
 </div>
 
 <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-<div  style="margin-left:980px;margin-right:150px;">
-    <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
-    <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
-</div> 
+<div  style="margin-left:1035px;margin-right:150px;">
 
+
+      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button " >NittayakanAdmin</a>
+
+</div> 
 
 <!-- Navbar -->
      
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px; " >
-    <div class="w3-col s2">
+    <div class="w3-col s3">
       <a href="#หน้าแรก" class="w3-button w3-pink w3-pink w3-block">หน้าแรก</a>
     </div>
     <div class="w3-col s2">
@@ -93,13 +94,13 @@ input[type=text]:focus, input[type=password]:focus {
         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
-    <div class="w3-dropdown-hover  w3-col s2">
+    <!-- <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">ชำระเงิน</a>     
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
         <a href="#แจ้งชำระเงิน" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
         </div>
-        </div>  
+        </div>   -->
     <div class="w3-col s2">
       <a href="#ติดต่อเรา" class="w3-button w3-pink w3-pink w3-block">ติดต่อเรา</a>
     </div>
@@ -111,18 +112,18 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 <!-- Page content -->
-<div  style="margin-left:150px;margin-right:150px;">
+
 
 <br>
 
-<div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
-    <div class="w3-container w3-center w3-round w3-pale-red" >
-      <h3>เพิ่มบริการ</h3>
-</div>
-    <div class="w3-container  w3-center" >
+    <div class="w3-content w3-padding w3-card-4 w3-round " style="margin-left:200px;margin-right:200px;"> 
+        <div class="w3-container w3-center w3-round w3-pale-red " >
+            <h3>เพิ่มบริการ</h3>
+        </div>
+   
  <!-- Service Section -->
- <div class="w3-container w3-padding-10" id="service">
- <div class="w3-row">
+    <div class="w3-container w3-center w3-padding-10" id="service">
+                            <div class="w3-row">
                                 <div class="w3-col m8">
                                     <p class="w3-right-align">ชื่อบริการ : <input type="text"  class=" w3-border  "></input></p>
                                     <p class="w3-right-align">คำอธิบาย : <input type="text" class=" w3-border  "></input></p>
@@ -132,14 +133,24 @@ input[type=text]:focus, input[type=password]:focus {
                                     
                                     </p>
                                  </div>                       
-                                </div>
+                            </div>
 
-<a href="service.php" class="w3-button w3-round   w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
+        <a href="service.php" class="w3-button w3-round   w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
         <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ยกเลิก</button>
 
-
+    </div>
+   
+    </div>
                             
+<br>	
+<footer class="w3-center  w3-padding-16 w3-opacity ">
+  <div class="w3-xlarge w3-section">
+   <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
+   <a href="" class="fa fa-instagram w3-hover-opacity w3-large"> </a>
 
+  </div>
+ 
+</footer>
 
 
 
@@ -180,14 +191,6 @@ input[type=text]:focus, input[type=password]:focus {
     </form>
   </div>
   -->
-
-
-
-
-
-
-
-
 
 </body>
 </html>

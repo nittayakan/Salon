@@ -40,45 +40,45 @@ input[type=text]:focus, input[type=password]:focus {
 
 <body>
 
-<div class="w3-right w3-hide-small">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
-      <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
-</div> 
-
 <!-- Logo ร้าน -->
 <div id="img_container">
 <img src="img/test3.png" />
 </div>
 
+<!-- <div class="w3-right w3-hide-small">
+      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
+      <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
+</div>  -->
+
 <!-- Navbar -->
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
-<div class="w3-col s2">
- <a href="#หน้าแรก" class="w3-button  w3-pink">หน้าแรก</a>
+<div class="w3-col s3">
+ <a href="#หน้าแรก" class="w3-button  w3-pink w3-block">หน้าแรก</a>
 </div>
 <div class="w3-col s2">
- <a href="#รายการบริการ" class="w3-button w3-pink">รายการบริการ</a>
+ <a href="#รายการบริการ" class="w3-button w3-pink w3-block">รายการบริการ</a>
 </div>
 <div class="w3-col s2">
- <a href="#โปรโมชั่น" class="w3-button w3-pink">โปรโมชั่น</a>
+ <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">โปรโมชั่น</a>
 </div>
 
 <!-- Navbar ที่มี Dropdown-->
    <div class="w3-dropdown-hover  w3-col s2">
-   <a href="#โปรโมชั่น" class="w3-button w3-pink">จองคิว</a>     
+   <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">จองคิว</a>     
  <div class="w3-dropdown-content w3-bar-block w3-card-4">
    <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pink">เพิ่มรายการจอง</a>
    <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pink">ประวัติการจอง</a>
    </div>
 </div>
-<div class="w3-dropdown-hover  w3-col s2">
+<!-- <div class="w3-dropdown-hover  w3-col s2">
    <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
  <div class="w3-dropdown-content w3-bar-block w3-card-4">
    <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pink">รายละเอียดการชำระเงิน</a>
    <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pink">แจ้งชำระเงิน</a>
    </div>
-   </div>  
+   </div>   -->
 <div class="w3-col s2">
- <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
+ <a href="#ติดต่อเรา" class="w3-button w3-pink w3-block">ติดต่อเรา</a>
 </div>
 </div>
 </div>

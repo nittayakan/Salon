@@ -41,34 +41,34 @@
 
 
      <!-- Navbar -->
-  <div class="w3-row w3-padding w3-pale-red" style="margin-left:150px;margin-right:150px;">
-    <div class="w3-col s2">
-      <a href="#หน้าแรก" class="w3-button w3-pale-red w3-pale-red w3-block">หน้าแรก</a>
+  <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
+    <div class="w3-col s3">
+      <a href="#หน้าแรก" class="w3-button w3-pink w3-pink w3-block">หน้าแรก</a>
     </div>
     <div class="w3-col s2">
-      <a href="#รายการบริการ" class="w3-button w3-pale-red w3-pale-red w3-block">รายการบริการ</a>
+      <a href="#รายการบริการ" class="w3-button w3-pink w3-pink w3-block">รายการบริการ</a>
     </div>
     <div class="w3-col s2">
-      <a href="#โปรโมชั่น" class="w3-button w3-pale-red w3-pale-red w3-block">โปรโมชั่น</a>
+      <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">โปรโมชั่น</a>
     </div>
 
     <!-- Navbar ที่มี Dropdown-->
         <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pale-red w3-pale-red w3-block">จองคิว</a>     
+        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">จองคิว</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
-     <div class="w3-dropdown-hover  w3-col s2">
+     <!-- <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pale-red w3-pale-red w3-block">ชำระเงิน</a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
         <a href="#แจ้งชำระเงิน" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
         </div>
-        </div>  
+        </div>   -->
     <div class="w3-col s2">
-      <a href="#ติดต่อเรา" class="w3-button w3-pale-red w3-pale-red w3-block">ติดต่อเรา</a>
+      <a href="#ติดต่อเรา" class="w3-button w3-pink w3-pink w3-block">ติดต่อเรา</a>
     </div>
   </div>
 </div>
@@ -126,7 +126,7 @@
   </div>
 
 
-  <div class="w3-row-padding">
+  <!-- <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         
@@ -155,7 +155,7 @@
         <p class="w3-center"><a href="#wedding" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 </body>

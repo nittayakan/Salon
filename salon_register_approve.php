@@ -42,45 +42,45 @@ input[type=text]:focus, input[type=password]:focus {
     </div> 
 <!-- Navbar -->
     <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
-    <div class="w3-col s2">
-        <a href="#หน้าแรก" class="w3-button  w3-pink">หน้าแรก</a>
+    <div class="w3-col s3 ">
+        <a href="#หน้าแรก" class="w3-button  w3-pink w3-block">หน้าแรก</a>
     </div>
     <div class="w3-col s2">
-        <a href="#รายการบริการ" class="w3-button w3-pink">รายการบริการ</a>
+        <a href="#รายการบริการ" class="w3-button w3-pink w3-block">รายการบริการ</a>
     </div>
-    <div class="w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink">โปรโมชั่น</a>
+    <div class="w3-col s2 ">
+        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">โปรโมชั่น</a>
     </div>
 
 <!-- Navbar ที่มี Dropdown-->
-   <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink">จองคิว</a>     
+   <div class="w3-dropdown-hover  w3-col s2 w3-block">
+        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">จองคิว</a>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pink">เพิ่มรายการจอง</a>
-        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pink">ประวัติการจอง</a>
+        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">เพิ่มรายการจอง</a>
+        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">ประวัติการจอง</a>
         </div>
     </div>
-    <div class="w3-dropdown-hover  w3-col s2">
+    <!-- <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
          <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pink">รายละเอียดการชำระเงิน</a>
          <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pink">แจ้งชำระเงิน</a>
    </div>
-   </div>  
-   <div class="w3-col s2">
-         <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
-   </div>
+   </div>   -->
+   <div class="w3-col s3">
+         <a href="#ติดต่อเรา" class="w3-button w3-pink  w3-block">ติดต่อเรา</a>
    </div>
 </div>
 <br>
 
 <!-- // แถบอนุมัติการจองคิว -->
-<div class="w3-container w3-card w3-round w3-padding"  style="margin-left:150px;margin-right:150px;">
-    <div class="w3-container  w3-round w3-pale-red w3-center" >
-      <h3>อนุมัติการจองคิว</h3>
-    </div><p>
-    <table class="w3-table-all w3-hoverable w3-margin"style="width: 98%;">
-    <thead>
+<div class="w3-content w3-padding w3-card-4 w3-round " style="margin-left:200px;margin-right:200px;"> 
+        <div class="w3-container w3-center w3-round w3-pale-red " >
+            <h3>อนุมัติการจองคิว</h3>
+        </div>
+
+     <table class="w3-table-all w3-hoverable w3-margin"style="width: 98%;">
+     <thead>
       <tr class="w3-light-grey">
         <th>ลำดับ</th>
         <th>ชื่อบริการ</th>
@@ -90,7 +90,9 @@ input[type=text]:focus, input[type=password]:focus {
         <th>วันที่จอง</th>
         <th>เวลา</th>
         <th>สถานะการจอง</th>
-        <th>สถานะการชำระเงิน</th>
+        <th></th>
+        <th></th>
+        <!-- <th>สถานะการชำระเงิน</th> -->
         <th></th>
       </tr>
     </thead>
@@ -109,22 +111,16 @@ input[type=text]:focus, input[type=password]:focus {
     
 
 
-      <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
+      <!-- <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
      <option value="1">ชำระเงินแล้ว</option>
-    <option value="2">ยังไม่ชำระเงิน</option></td><p>
-      <td>
-      
-      
-      
-      <div class="w3-container w3-right w3-section">
+    <option value="2">ยังไม่ชำระเงิน</option></td><p> -->
 
-
-
-
-      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-green"><i class="w3-block"></i> ตกลง </a>
-        <a href="salon_register_approve.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('subscribe').style.display='block'">แก้ไข</button>
+       <td><div class=" w3-right ">    
+      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-red"><i class=""></i> ตกลง</a>
+      <td><div class=" w3-right "> 
+      <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>
-    </tr>
+      
     <tr>
     <td>2</td>
       <td>ตัดผม</td>
@@ -136,16 +132,19 @@ input[type=text]:focus, input[type=password]:focus {
       <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>อนุมัติ</option>
     <option value="1">อนุมัติ</option>
     <option value="2">ไม่อนุมัติ</option></td><p></td>
-      <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
+      <!-- <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
     <option value="1">ชำระเงินแล้ว</option>
-    <option value="2">ยังไม่ชำระเงิน</option></td><p></td>
-      <td><div class="w3-container w3-right w3-section">    
-      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-green"><i class=""></i> ตกลง</a>
-      <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-red w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
+    <option value="2">ยังไม่ชำระเงิน</option></td><p></td> -->
+      <td><div class=" w3-right ">    
+      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-red"><i class=""></i> ตกลง</a>
+      <td><div class=" w3-right "> 
+      <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>
-    </tr>
+     
+    </tr> 
     
-  </table><p>
+  </table>
+  </div> <p><p>
 </div>
 
 

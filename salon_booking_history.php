@@ -23,10 +23,11 @@
 
 <body>
 
-<div class="w3-right w3-hide-small">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
+<!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
+<div  style="margin-left:980px;margin-right:150px;">
+      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
       <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
-</div> 
+</div>
 
 <!-- Logo ร้าน -->
 <div id="img_container">
@@ -36,32 +37,32 @@
 <!-- Navbar -->
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
 <div class="w3-col s2">
- <a href="#หน้าแรก" class="w3-button  w3-pink">หน้าแรก</a>
+ <a href="#หน้าแรก" class="w3-button  w3-pink w3-block">หน้าแรก</a>
 </div>
 <div class="w3-col s2">
- <a href="#รายการบริการ" class="w3-button w3-pink">รายการบริการ</a>
+ <a href="#รายการบริการ" class="w3-button w3-pink w3-block">รายการบริการ</a>
 </div>
 <div class="w3-col s2">
- <a href="#โปรโมชั่น" class="w3-button w3-pink">โปรโมชั่น</a>
+ <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">โปรโมชั่น</a>
 </div>
 
 <!-- Navbar ที่มี Dropdown-->
    <div class="w3-dropdown-hover  w3-col s2">
-   <a href="#โปรโมชั่น" class="w3-button w3-pink">จองคิว</a>     
+   <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">จองคิว</a>     
  <div class="w3-dropdown-content w3-bar-block w3-card-4">
-   <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pink">เพิ่มรายการจอง</a>
-   <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pink">ประวัติการจอง</a>
+   <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pink w3-block">เพิ่มรายการจอง</a>
+   <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pink w3-block">ประวัติการจอง</a>
    </div>
 </div>
 <div class="w3-dropdown-hover  w3-col s2">
-   <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
+   <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block">ชำระเงิน</a>     
  <div class="w3-dropdown-content w3-bar-block w3-card-4">
-   <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pink">รายละเอียดการชำระเงิน</a>
-   <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pink">แจ้งชำระเงิน</a>
+   <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pink w3-block">รายละเอียดการชำระเงิน</a>
+   <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pink w3-block">แจ้งชำระเงิน</a>
    </div>
    </div>  
 <div class="w3-col s2">
- <a href="#ติดต่อเรา" class="w3-button w3-pink ">ติดต่อเรา</a>
+ <a href="#ติดต่อเรา" class="w3-button w3-pink w3-block">ติดต่อเรา</a>
 </div>
 </div>
 </div>
@@ -76,48 +77,37 @@
     <thead>
       <tr class="w3-light-grey">
         <th>ลำดับ</th>
-        <th>ชื่อบริการ</th>
-        <th>พนักงานให้บริการ</th>
-        <th>เบอร์โทรศัพท์</th>
         <th>เพศ</th>
-        <th>วันที่จอง</th>
-        <th>เวลา</th>
+        <th>ชื่อบริการ</th>
+        <th>ผู้ให้บริการ</th>
+        <th>ช่วงเวลา</th>
+        <th>วันที่</th>
+        <th>เบอร์โทรศัพท์</th>
         <th>สถานะการจอง</th>
         <th>สถานะการชำระเงิน</th>
-        
+        <th>จำนวนเงิน</th>
+        <th></th>
         <th></th>
       </tr>
     </thead>
     
     <tr>
       <td>1</td>
+      <td>หญิง</td>
       <td>ทำเล็บ</td>
       <td>xxx</td>
-      <td>0845266795</td>
-      <td>หญิง</td>
-      <td>15/01/2562</td>
       <td>9.00</td>
+      <td>15/01/2562</td>
+      <td>0845266795</td>
       <td>อนุมัติแล้ว</td>
       <td>ชำระเงินแล้ว</td>
-      <td><div class="w3-container w3-right w3-section">
+      <td></td>
+      <td><div class="w3-container w3-right ">
         <a href="salon_update_booking.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
-        <button class="w3-button w3-round w3-red" onclick="document.getElementById('booking').style.display='block'">ลบ</button>
+        
       </div></td>
-    </tr>
-    <tr>
-    <td>2</td>
-      <td>ตัดผม</td>
-      <td>xxx</td>
-      <td>0862145321</td>
-      <td>หญิง</td>
-      <td>15/01/2562</td>
-      <td>10.00</td>
-      <td>รออนุมัติ</td>
-      <td>ชำระเงินแล้ว</td>
-      <td><div class="w3-container w3-right w3-section">
-        <a href="salon_update_booking.php" class="w3-button w3-round w3-amber"> แก้ไข</a>
-        <button class="w3-button w3-round w3-red" onclick="document.getElementById('booking').style.display='block'">ลบ</button>
-      </div></td>
+      <td><div class="w3-container  ">
+      <button class="w3-button w3-round w3-red w3-left" onclick="document.getElementById('booking').style.display='block'">ลบ</button></td>
     </tr>
     
   </table><p>

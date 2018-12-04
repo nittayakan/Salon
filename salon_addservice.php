@@ -115,7 +115,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 <br>
-
     <div class="w3-content w3-padding w3-card-4 w3-round " style="margin-left:200px;margin-right:200px;"> 
         <div class="w3-container w3-center w3-round w3-pale-red " >
             <h3>เพิ่มบริการ</h3>
@@ -138,8 +137,7 @@ input[type=text]:focus, input[type=password]:focus {
         <a href="service.php" class="w3-button w3-round   w3-green "><i class="fas fa-caret-left"></i> เพิ่ม</a>
         <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ยกเลิก</button>
 
-    </div>
-   
+    </div>  
     </div>
                             
 <br>	

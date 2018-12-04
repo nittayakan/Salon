@@ -77,12 +77,11 @@
 
 <div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
     <div class="w3-container w3-center w3-round w3-pale-red" >
-      <h3>โปรโมชั่น</h3>
-    </div><p>
-    <div class="w3-container  w3-center" >
-
-  <!-- Service Section -->
-  <div class="w3-container w3-padding-10" id="service">  </div>
+      <h3>โปรโมชั่น</h3></div><p>
+    
+  <!-- <div class="w3-container w3-center" > -->
+ <!-- Promotion Section -->
+<!-- <div class="w3-container w3-padding-10" id="pronotion"></div> -->
 
 <!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->
   <div class="w3-row-padding">
@@ -91,11 +90,9 @@
         <img src="img/P1.jpg" alt="ทำสีผม" style="width:100%">
         <!-- ปุ่มกดแสดงชื่อการบริการ -->
         <p class="w3-center"><a href="salon_promotiondetail.php" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
-   
-
-
       </div>
     </div>
+  
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         
@@ -117,14 +114,7 @@
         <p class="w3-center"><a href="#wedding" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
-  </div>
-
- 
-
-
-
-
-  
-
+    </div>
+</div><p>
 </body>
 </html>

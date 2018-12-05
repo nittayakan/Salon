@@ -40,15 +40,25 @@ input[type=text]:focus, input[type=password]:focus {
 
 <body>
 
-<div class="w3-right w3-hide-small">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button ">เข้าสู่ระบบ</a>
-      <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
-</div> 
 
 <!-- Logo ร้าน -->
 <div id="img_container">
 <img src="img/test3.png" />
 </div>
+
+ <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
+ <div  style="margin-left:1050px;margin-right:150px;">
+    <div class="w3-dropdown-hover  s2 w3-block">
+      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " ><b>NittayakanAdmin</b></a>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+         <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">ข้อมูลส่วนตัว</a>
+         <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">จัดการพนักงาน</a>
+         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">ออกจากระบบ</a></div>
+        </div>
+   </div> 
+  </div>
+
+
 
 <!-- Navbar -->
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">

@@ -33,9 +33,9 @@
     </div>
 
 <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-<div  style="margin-left:980px;margin-right:150px;">
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button  ">เข้าสู่ระบบ</a>
-      <a href="#สมัครสมาชิก" class="w3-bar-item w3-button">สมัครสมาชิก</a>
+<div  style="margin-left:970px;margin-right:150px;">
+      <a href="salon_login.php" class="w3-bar-item w3-button "><b>เข้าสู่ระบบ</b></a>
+      <a href="salon_register.php" class="w3-bar-item w3-button"><b>สมัครสมาชิก</b></a>
 </div> 
 
 
@@ -43,21 +43,21 @@
      <!-- Navbar -->
   <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
     <div class="w3-col s3">
-      <a href="#หน้าแรก" class="w3-button w3-pink w3-pink w3-block">หน้าแรก</a>
+      <a href="test.php" class="w3-button w3-pink w3-pink w3-block"><b>หน้าแรก<b></a>
     </div>
     <div class="w3-col s2">
-      <a href="#รายการบริการ" class="w3-button w3-pink w3-pink w3-block">รายการบริการ</a>
+      <a href="service.php" class="w3-button w3-pink w3-pink w3-block"><b>รายการบริการ</b></a>
     </div>
     <div class="w3-col s2">
-      <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">โปรโมชั่น</a>
+      <a href="promotion.php" class="w3-button w3-pink w3-pink w3-block"><b>โปรโมชั่น</b></a>
     </div>
 
     <!-- Navbar ที่มี Dropdown-->
         <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">จองคิว</a>     
+        <a href="#" class="w3-button w3-pink w3-pink w3-block"><b>จองคิว</b></a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
-        <a href="salon_booking_hiatory.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
+        <a href="salon_booking_history.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
         </div>
     </div>
      <!-- <div class="w3-dropdown-hover  w3-col s2">
@@ -68,7 +68,7 @@
         </div>
         </div>   -->
     <div class="w3-col s2">
-      <a href="#ติดต่อเรา" class="w3-button w3-pink w3-pink w3-block">ติดต่อเรา</a>
+      <a href="salon_contact.php" class="w3-button w3-pink w3-pink w3-block"><b>ติดต่อเรา</b></a>
     </div>
   </div>
 </div>
@@ -97,21 +97,21 @@
       <div class="w3-display-container">
         
         <img src="img/P2.jpg" alt="House" style="width:100%">
-        <p class="w3-center"><a href="#wedding" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
+        <p class="w3-center"><a href="salon_promotiondetail.php" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">ทำเล็บ</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         
         <img src="img/P3.jpg" alt="House" style="width:100%">
-        <p class="w3-center"><a href="#wedding" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ยืดผม</a></p>
+        <p class="w3-center"><a href="salon_promotiondetail.php" class="w3-button w3-gray w3-round w3-padding-large w3-lagge w3-block">ยืดผม</a></p>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
     
         <img src="img/P4.jpg" alt="House" style="width:100%">
-        <p class="w3-center"><a href="#wedding" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
+        <p class="w3-center"><a href="salon_promotiondetail.php" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
     </div>

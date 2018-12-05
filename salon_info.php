@@ -62,6 +62,16 @@
    </div> 
   </div>
 
+
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+<a href="/jquery/">jQuery</a>
+</nav>
+
+
+
 <!-- Navbar -->
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
         <div class="w3-col s3">
@@ -101,15 +111,14 @@
     <div class="w3-container  w3-round w3-pale-red w3-center" >
       <h3>ข้อมูลส่วนตัว</h3>
     </div><p>
-
-    <div class="w3-content w3-round-large "style="width: 100%;">
+    
 	<div class="row">
     <div class="column1" >
     <img src="img/13.jpg" style="width:300px;height:380px">
-</div>
+    </div>
 <div class="column2 w3-card w3-round w3-white"> 	
-<div class="w3-row">
-                                <div class="w3-col m4">
+    <div class="w3-row">
+        <div class="w3-col m4">
                                     <p class="w3-right-align">ชื่อ : </p>
                                     <p class="w3-right-align">นามสกุล : </p>
                                     <p class="w3-right-align">ที่อยู่ : </p>
@@ -117,17 +126,16 @@
                                     <p class="w3-right-align">เบอร์โทรศัพท์ : </p>
                                     <p class="w3-right-align">รหัสบัตรประชาชน : </p>
                                     <p class="w3-right-align">เพศ : </p>
- 
-                                    </p>
-                                 </div>   
-  </div>
- 
-  <div class=" w3-right w3-section">
-          	   <div class=" m3 w3-margin-bottom">
-                <div class="w3-display-container">
+            
+         </div>   
+    </div>
+         <div class="w3-display-container w3-center">
                      <a href="Service.php" class="w3-button w3-round w3-pale-red  ">แก้ไขข้อมูลส่วนตัว  </a>
                      <a href="Service.php" class="w3-button  w3-gray  ">เปลี่ยนรหัสผ่าน</a>
-
+         </div>
+                
+    </div>
+</div>
 </div>
 </div>
 

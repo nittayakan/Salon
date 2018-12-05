@@ -37,13 +37,13 @@ input[type=text]:focus, input[type=password]:focus {
     </div>
 
     <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-    <div  style="margin-left:1050px;margin-right:150px;">
+    <div  style="margin-left:1030px;margin-right:150px;">
     <div class="w3-dropdown-hover  s2 w3-block">
       <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " ><b>NittayakanAdmin</b></a>
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
          <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">ข้อมูลส่วนตัว</a>
-         <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">จัดการพนักงาน</a>
-         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">ออกจากระบบ</a></div>
+         <a href="salon_beautician.php" class="w3-bar-item w3-button w3-pale-red w3-block">จัดการพนักงาน</a>
+         <a href="salon_logout.php" class="w3-bar-item w3-button w3-pale-red w3-block">ออกจากระบบ</a></div>
         </div>
    </div> 
   </div>
@@ -52,21 +52,21 @@ input[type=text]:focus, input[type=password]:focus {
 <!-- Navbar -->
     <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px;">
     <div class="w3-col s3 ">
-        <a href="#หน้าแรก" class="w3-button  w3-pink w3-block"><b>หน้าแรก</b></a>
+        <a href="test.php" class="w3-button  w3-pink w3-block"><b>หน้าแรก</b></a>
     </div>
     <div class="w3-col s2">
-        <a href="#รายการบริการ" class="w3-button w3-pink w3-block"><b>รายการบริการ</b></a>
+        <a href="service.php" class="w3-button w3-pink w3-block"><b>รายการบริการ</b></a>
     </div>
     <div class="w3-col s2 ">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block"><b>โปรโมชั่น</b></a>
+        <a href="promotion.php" class="w3-button w3-pink w3-block"><b>โปรโมชั่น</b></a>
     </div>
 
 <!-- Navbar ที่มี Dropdown-->
    <div class="w3-dropdown-hover  w3-col s2 w3-block">
         <a href="#โปรโมชั่น" class="w3-button w3-pink w3-block"><b>จองคิว</b></a>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">เพิ่มรายการจอง</a>
-        <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">ประวัติการจอง</a>
+        <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red w3-block">เพิ่มรายการจอง</a>
+        <a href="salon_booking_history.php" class="w3-bar-item w3-button w3-pale-red w3-block">ประวัติการจอง</a>
         </div>
     </div>
     <!-- <div class="w3-dropdown-hover  w3-col s2">
@@ -77,15 +77,15 @@ input[type=text]:focus, input[type=password]:focus {
    </div>
    </div>   -->
    <div class="w3-col s3">
-         <a href="#ติดต่อเรา" class="w3-button w3-pink  w3-block"><b>ติดต่อเรา</b></a>
+         <a href="salon_contact.php" class="w3-button w3-pink  w3-block"><b>ติดต่อเรา</b></a>
    </div>
 </div>
 <br>
 
 <!-- // แถบอนุมัติการจองคิว -->
-<div class="w3-content w3-padding w3-card-4 w3-round " style="margin-left:200px;margin-right:200px;"> 
+<div class="w3-content w3-padding w3-card-4 w3-round " style="margin-left:190px;margin-right:190px;"> 
         <div class="w3-container w3-center w3-round w3-pale-red " >
-            <h3>อนุมัติการจองคิว</h3>
+            <h3>การชำระเงิน</h3>
         </div>
 
      <table class="w3-table-all w3-hoverable w3-margin"style="width: 98%;">
@@ -98,10 +98,9 @@ input[type=text]:focus, input[type=password]:focus {
         <th>เพศ</th>
         <th>วันที่จอง</th>
         <th>เวลา</th>
-        <th>สถานะการจอง</th>
+        <th>การชำระเงิน</th>
+        <th>จำนวนเงิน</th>
         <th></th>
-        <th></th>
-        <!-- <th>สถานะการชำระเงิน</th> -->
         <th></th>
       </tr>
     </thead>
@@ -114,9 +113,10 @@ input[type=text]:focus, input[type=password]:focus {
       <td>หญิง</td>
       <td>15/01/62</td>
       <td>9.00</td>
-      <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>อนุมัติ</option>
-    <option value="1">อนุมัติ</option>
-    <option value="2">ไม่อนุมัติ</option></td><p>
+      <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>การชำระเงิน</option>
+    <option value="1">ชำระเงินแล้ว</option>
+    <option value="2">ยังไม่ชำระเงิน</option></td><p></td>
+    <td><input type="number" class=" w3-block"></input></td>
     
 
 
@@ -125,9 +125,9 @@ input[type=text]:focus, input[type=password]:focus {
     <option value="2">ยังไม่ชำระเงิน</option></td><p> -->
 
        <td><div class=" w3-right ">    
-      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-red"><i class=""></i> ตกลง</a>
+      <a href="salon_booking_history.php" class="w3-button w3-round  w3-red"><i class=""></i> ตกลง</a>
       <td><div class=" w3-right "> 
-      <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
+      <a href="salon_update_booking.php" button class="w3-button w3-round w3-amber w3-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>
       
     <tr>
@@ -138,9 +138,10 @@ input[type=text]:focus, input[type=password]:focus {
       <td>หญิง</td>
       <td>15/01/62</td>
       <td>10.00</td>
-      <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>อนุมัติ</option>
-    <option value="1">อนุมัติ</option>
-    <option value="2">ไม่อนุมัติ</option></td><p></td>
+      <td><select class="w3-select " name="gender"style="width:80px;" >  <option value="" disabled selected>การชำระเงิน</option>
+    <option value="1">ชำระเงินแล้ว</option>
+    <option value="2">ยังไม่ชำระเงิน</option></td><p></td>
+    <td><input type="number" class=" w3-block"></input></td>
       <!-- <td><select class="w3-select" name="gender"style="width:80px;" >  <option value="" disabled selected>สถานะ</option>
     <option value="1">ชำระเงินแล้ว</option>
     <option value="2">ยังไม่ชำระเงิน</option></td><p></td> -->
@@ -156,9 +157,8 @@ input[type=text]:focus, input[type=password]:focus {
   </div> <p><p>
 </div>
 
+<b> 
 
-
-<!-- <b> <br> 
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
@@ -166,7 +166,8 @@ input[type=text]:focus, input[type=password]:focus {
 
   </div>
  
-</footer> -->
+</footer>
+
 
 </body>
 </html>

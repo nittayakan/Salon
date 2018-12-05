@@ -65,30 +65,35 @@ input[type=text]:focus, input[type=password]:focus {
 <img src="img/Test3.png" />
 </div>
 
-<!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-<div  style="margin-left:1035px;margin-right:150px;">
+ <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
+ <div  style="margin-left:1030px;margin-right:150px;">
+    <div class="w3-dropdown-hover  s2 w3-block">
+      <a href="salon_beautician.php" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " ><b>NittayakanAdmin</b></a>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+         <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">ข้อมูลส่วนตัว</a>
+         <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">จัดการพนักงาน</a>
+         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">ออกจากระบบ</a></div>
+        </div>
+   </div> 
+  </div>
 
-
-      <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button " >NittayakanAdmin</a>
-
-</div> 
 
 <!-- Navbar -->
      
 <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px; " >
     <div class="w3-col s3">
-      <a href="#หน้าแรก" class="w3-button w3-pink w3-pink w3-block">หน้าแรก</a>
+      <a href="#หน้าแรก" class="w3-button w3-pink w3-pink w3-block"><b>หน้าแรก</b></a>
     </div>
     <div class="w3-col s2">
-      <a href="#รายการบริการ" class="w3-button w3-pink w3-pink w3-block">รายการบริการ</a>
+      <a href="#รายการบริการ" class="w3-button w3-pink w3-pink w3-block"><b>รายการบริการ</b></a>
     </div>
     <div class="w3-col s2">
-      <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">โปรโมชั่น</a>
+      <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block"><b>โปรโมชั่น</b></a>
     </div>
 
     <!-- Navbar ที่มี Dropdown-->
         <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">จองคิว</a>     
+        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block"><b>จองคิว</b></a>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#เพิ่มรายการจอง" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
         <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
@@ -102,7 +107,7 @@ input[type=text]:focus, input[type=password]:focus {
         </div>
         </div>   -->
     <div class="w3-col s2">
-      <a href="#ติดต่อเรา" class="w3-button w3-pink w3-pink w3-block">ติดต่อเรา</a>
+      <a href="#ติดต่อเรา" class="w3-button w3-pink w3-pink w3-block"><b>ติดต่อเรา</b></a>
     </div>
   </div>
 </div>

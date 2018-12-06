@@ -116,56 +116,61 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+}
+.bar{
+  background-color:#F08080;
+}
+.w3-container{
+  background-color:;
+}
 
- 
- 
- </style>
-</head>
+.bar {
+  background-color:#F08080;
+}
+
+</style>
+
 <body>
- <!-- Logo ร้าน -->
-  <div id="img_container">
-    <img src="img/Test3.png" />
-    </div>
+
+
+<!-- Logo ร้าน -->
+<div id="img_container">
+<img src="img/test3.png" />
+</div>
+
 <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
 <div  style="margin-left:970px;margin-right:150px;">
       <a href="salon_login.php" class="w3-bar-item w3-button"><b>เข้าสู่ระบบ</b></a>
       <a href="salon_register.php" class="w3-bar-item w3-button"><b>สมัครสมาชิก</b></a>
 </div>
 
-
-     <!-- Navbar -->
-  <div class="w3-row w3-padding w3-pink " style="margin-left:150px;margin-right:150px;">
-    <div class="w3-col s3">
-      <a href="test.php" class="w3-button w3-pink w3-pink w3-block"><b>หน้าแรก</b></a>
-    </div>
-    <div class="w3-col s2">
-      <a href="service.php" class="w3-button w3-pink w3-pink w3-block"><b>รายการบริการ</b></a>
-    </div>
-    <div class="w3-col s2">
-      <a href="promotion.php" class="w3-button w3-pink w3-pink w3-block"><b>โปรโมชั่น</b></a>
-    </div>
-
-    <!-- Navbar ที่มี Dropdown-->
-        <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#" class="w3-button w3-pink w3-pink w3-block"><b>จองคิว</b></a>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
-        <a href="salon_history.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
-        </div>
-    </div>
-     <!-- <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pale-red w3-pale-red w3-block">ชำระเงิน</a>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
-        <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
-        </div>
-        </div>   -->
-    <div class="w3-col s2">
-      <a href="salon_contact.php" class="w3-button w3-pink w3-pink w3-block"><b>ติดต่อเรา</b></a>
-    </div>
-  </div>
+<!-- Navbar -->
+<div class="bar w3-row w3-padding " style="margin-left:150px;margin-right:150px;">
+<div class="w3-col s3">
+<a href="test.php" class="w3-button  w3-block"><b>หน้าแรก</b></a>
+</div>
+<div class="w3-col s2">
+ <a href="service.php" class="w3-button w3-block"><b>รายการบริการ</b></a>
+</div>
+<div class="w3-col s2">
+ <a href="promotion.php" class="w3-button w3-block"><b>โปรโมชั่น</b></a>
 </div>
 
+<!-- Navbar ที่มี Dropdown-->
+   <div class="w3-dropdown-hover  w3-col s2">
+   <a href="" class="w3-button w3-block"><b>จองคิว</b></a>     
+ <div class="w3-dropdown-content w3-bar-block w3-card-4">
+   <a href="salon_login_register.php" class="w3-bar-item w3-button w3-pale-red w3-block">เพิ่มรายการจอง</a>
+   <a href="salon_login_register.php" class="w3-bar-item w3-button w3-pale-red w3-block">ประวัติการจอง</a>
+   </div>
+</div>
+
+
+<div class="w3-col s2">
+ <a href="salon_contact.php" class="w3-button w3-block"><b>ติดต่อเรา</b></a>
+</div>
+</div>
+</div>
 
 <!-- // slide show -->
 

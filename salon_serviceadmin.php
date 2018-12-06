@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <style>
  /* จัดรูปแบบตำแหน่ง Logo */
@@ -16,33 +17,33 @@
   margin: auto auto;
   display: block;
   
-
-
-    
-
-
-
 }
- 
 
 
- </style>
-</head>
+.bar{
+  background-color:#F08080;
+}
+.w3-content{
+  background-color:;
+}
+.material-icons {vertical-align:-14%}
 
 
+</style>
 <body>
  <!-- Logo ร้าน -->
-  <div id="img_container">  
-    <img src="img/Test3.png" />
+    <div id="img_container">
+        <img src="img/Test3.png" />
     </div>
 
-  <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-  <div  style="margin-left:1030px;margin-right:150px;">
-    <div class="w3-dropdown-hover  s2 w3-block">
-      <a href="salon_beautician.php" class="w3-bar-item w3-button w3-white w3-text-pink w3-block " ><b>NittayakanAdmin</b></a>
+    <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
+    <div  style="margin-left:1020px;margin-right:150px;">
+    <div class="w3-dropdown-hover s2 w3-block w3-white">
+    <!-- <a href="#เข้าสู่ระบบ" class="w3-bar-item w3-button w3-white w3-text-pink w3-block  " ><b>NittayakanAdmin</b></a> -->
+      <i class="material-icons ">person</i><b>NittayakanAdmin</b>
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
          <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">ข้อมูลส่วนตัว</a>
-         <a href="salon_info.php" class="w3-bar-item w3-button w3-pale-red w3-block">จัดการพนักงาน</a>
+         <a href="salon_beautician.php" class="w3-bar-item w3-button w3-pale-red w3-block">จัดการพนักงาน</a>
          <a href="#ประวัติการจอง" class="w3-bar-item w3-button w3-pale-red w3-block">ออกจากระบบ</a></div>
         </div>
    </div> 
@@ -50,44 +51,44 @@
 
 
 
-     <!-- Navbar -->
-     
-  <div class="w3-row w3-padding w3-pink" style="margin-left:150px;margin-right:150px; " >
-    <div class="w3-col s3">
-      <a href="test.php" class="w3-button w3-pink w3-pink w3-block"><b>หน้าแรก</b></a>
+<!-- Navbar -->
+    <div class="bar w3-row w3-padding " style="margin-left:150px;margin-right:150px;">
+    <div class="w3-col s3 ">
+        <a href="test.php" class="w3-button  w3-block "><b>หน้าแรก</b></a>
     </div>
     <div class="w3-col s2">
-      <a href="service.php" class="w3-button w3-pink w3-pink w3-block"><b>รายการบริการ</b></a>
+        <a href="salon_serviceadmin.php" class="w3-button  w3-block "><b>รายการบริการ</b></a>
     </div>
-    <div class="w3-col s2">
-      <a href="promotion.php" class="w3-button w3-pink w3-pink w3-block"><b>โปรโมชั่น</b></a>
+    <div class="w3-col s2 ">
+        <a href="salon_promotionadmin.php" class="w3-button w3-block "><b>โปรโมชั่น</b></a>
     </div>
 
-    <!-- Navbar ที่มี Dropdown-->
-        <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block"><b>จองคิว</b></a>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red">เพิ่มรายการจอง</a>
-        <a href="salon_history.php" class="w3-bar-item w3-button w3-pale-red">ประวัติการจอง</a>
+    
+
+<!-- Navbar ที่มี Dropdown-->
+   <div class="w3-dropdown-hover  w3-col s2 w3-block">
+        <a href="#โปรโมชั่น" class="w3-button  w3-block "><b>จองคิว</b></a>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="salon_bookingadmin.php" class="w3-bar-item w3-button  w3-block w3-pale-red ">เพิ่มรายการจอง</a>
+        <a href="salon_register_approve.php" class="w3-bar-item w3-button  w3-block w3-pale-red ">อนุมัติการจอง</a>
+        <a href="salon_paymentadmin.php" class="w3-bar-item w3-button  w3-block w3-pale-red">การชำระเงิน</a>
+        <a href="salon_report.php" class="w3-bar-item w3-button  w3-block w3-pale-red">รายงานการจอง</a>
+
         </div>
     </div>
-     <!-- <div class="w3-dropdown-hover  w3-col s2">
-        <a href="#โปรโมชั่น" class="w3-button w3-pink w3-pink w3-block">ชำระเงิน</a>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pale-red">รายละเอียดการชำระเงิน</a>
-        <a href="#แจ้งชำระเงิน" class="w3-bar-item w3-button w3-pale-red">แจ้งชำระเงิน</a>
-        </div>
-        </div>   -->
-    <div class="w3-col s2">
-      <a href="salon.contact.php" class="w3-button w3-pink w3-pink w3-block"><b>ติดต่อเรา</b></a>
-    </div>
-  </div>
+    <!-- <div class="w3-dropdown-hover  w3-col s2">
+        <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+         <a href="#รายละเอียดการชำระเงิน" class="w3-bar-item w3-button w3-pink">รายละเอียดการชำระเงิน</a>
+         <a href="#แจ้งชำระเงิร" class="w3-bar-item w3-button w3-pink">แจ้งชำระเงิน</a>
+   </div>
+   </div>   -->
+   <div class="w3-col s3">
+         <a href="salon_contact.php" class="w3-button   w3-block "><b>ติดต่อเรา</b></a>
+   </div>
 </div>
 
-<!-- Page content -->
-<div  style="margin-left:150px;margin-right:150px;">
 
- 
 <br>
 <div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
     <div class="w3-container w3-center w3-round w3-pale-red" >
@@ -96,6 +97,7 @@
  <!-- Service Section -->
  <div class="w3-container w3-padding-10" id="service"> 
     <p class="w3-right"><a href="salon_addservice.php" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block" >เพิ่มบริการ </a></p>
+ </div>
 <!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -119,7 +121,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <a href="salon_servicedetail.php" class="w3-button w3-round   w3-gray"><i class="fas fa-caret-left"></i> แก้ไข</a>
+        <a href="salon_update_service.php" class="w3-button w3-round   w3-gray"><i class="fas fa-caret-left"></i> แก้ไข</a>
         <button class="w3-button w3-round w3-amber w3-pale-red" onclick="document.getElementById('subscribe').style.display='block'">ลบ</button>
         <br><br>
         <img src="img/11.jpg" alt="House" style="width:100%">
@@ -136,9 +138,10 @@
       </div>
     </div>
   </div>
+  </div><p>
 
 
-  <div class="w3-row-padding">
+  <!-- <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <a href="salon_update_service.php" class="w3-button w3-round   w3-gray"><i class="fas fa-caret-left"></i> แก้ไข</a>
@@ -175,15 +178,11 @@
         <p class="w3-center"><a href="salon_servicedetail.php" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div><p>
-</div>
-</div>
-
+</div> -->
 
  
 
  <form class="w3-container " action="/action_page.php">
-  
- 
   <label>
    
   </label>
@@ -197,12 +196,13 @@
      <h2>ยืนยันการลบ</h2>
      <div class="w3-container w3-center w3-section ">
      <button class="w3-button w3-round w3-amber w3-red" onclick="document.getElementById('subscribe').style.display='block'">ตกลง</button>
-       <a href="service.php" class="w3-button w3-round w3-grey"><i class="fas fa-caret-left"></i> ยกเลิก</a>     
+       <a href="salon_serviceadmin.php" class="w3-button w3-round w3-grey"><i class="fas fa-caret-left"></i> ยกเลิก</a>     
      </div>
    </div>
  </div>
 </div>
- 
+<b> 
+
 
 
 

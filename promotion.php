@@ -21,11 +21,7 @@
 
  </style>
 </head>
-
-
 <body>
-
-
 
  <!-- Logo ร้าน -->
   <div id="img_container">  
@@ -116,5 +112,6 @@
     </div>
     </div>
 </div><p>
+
 </body>
 </html>

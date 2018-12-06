@@ -67,6 +67,8 @@ input[type=text]:focus, input[type=password]:focus {
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="salon_booking.php" class="w3-bar-item w3-button w3-pale-red w3-block">เพิ่มรายการจอง</a>
         <a href="salon_booking_history.php" class="w3-bar-item w3-button w3-pale-red w3-block">ประวัติการจอง</a>
+        <a href="salon_paymentadmin.php" class="w3-bar-item w3-button w3-pale-red w3-block">การชำระเงิน</a>
+
         </div>
     </div>
     <!-- <div class="w3-dropdown-hover  w3-col s2">
@@ -146,7 +148,7 @@ input[type=text]:focus, input[type=password]:focus {
     <option value="1">ชำระเงินแล้ว</option>
     <option value="2">ยังไม่ชำระเงิน</option></td><p></td> -->
       <td><div class=" w3-right ">    
-      <a href="salon_booking_hiatory.php" class="w3-button w3-round  w3-red"><i class=""></i> ตกลง</a>
+      <a href="salon_booking_history.php" class="w3-button w3-round  w3-red"><i class=""></i> ตกลง</a>
       <td><div class=" w3-right "> 
       <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>

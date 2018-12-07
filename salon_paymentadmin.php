@@ -145,7 +145,7 @@ input[type=text]:focus, input[type=password]:focus {
        <td><div class=" w3-right ">    
       <a href="salon_booking_history.php" class="w3-button w3-round  w3-pale-red"><i class=""></i> ตกลง</a>
       <td><div class=" w3-right "> 
-      <a href="salon_update_booking.php" button class="w3-button w3-round w3-amber w3-light-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
+      <a href="salon_paymentadmin.php" button class="w3-button w3-round w3-amber w3-light-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>
       
     <tr>
@@ -166,7 +166,7 @@ input[type=text]:focus, input[type=password]:focus {
       <td><div class=" w3-right ">    
       <a href="salon_booking_history.php" class="w3-button w3-round  w3-pale-red"><i class=""></i> ตกลง</a>
       <td><div class=" w3-right "> 
-      <a href="salon_booking.php" button class="w3-button w3-round w3-amber w3-light-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
+      <a href="salon_paymentadmin.php" button class="w3-button w3-round w3-amber w3-light-gray w3-block" onclick="document.getElementById('register').style.display='block'">แก้ไข</button> 
       </div></td>
      
     </tr> 

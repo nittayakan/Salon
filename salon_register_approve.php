@@ -40,6 +40,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 </style>
+</head>
 <body>
  <!-- Logo ร้าน -->
     <div id="img_container">
@@ -47,7 +48,7 @@ input[type=text]:focus, input[type=password]:focus {
     </div>
 
     <!-- // ด้านมุมบนขวา เข้าสู่ระบบและสมัครสมาชิก -->
-    <div  style="margin-left:1020px;margin-right:150px;">
+  <div  style="margin-left:1020px;margin-right:150px;">
     <div class="w3-dropdown-hover s2 w3-block w3-white">
       <i class="material-icons ">person</i><b>NittayakanAdmin</b>
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -61,7 +62,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 <!-- Navbar -->
-    <div class="bar w3-row w3-padding " style="margin-left:150px;margin-right:150px;">
+<div class="bar w3-row w3-padding " style="margin-left:150px;margin-right:150px;">
     <div class="w3-col s3 ">
         <a href="test.php" class="w3-button  w3-block "><b>หน้าแรก</b></a>
     </div>
@@ -83,7 +84,7 @@ input[type=text]:focus, input[type=password]:focus {
         <a href="salon_report.php" class="w3-bar-item w3-button  w3-block w3-pale-red">รายงานการจอง</a>
 
         </div>
-    </div>
+  </div>
     <!-- <div class="w3-dropdown-hover  w3-col s2">
         <a href="#โปรโมชั่น" class="w3-button w3-pink">ชำระเงิน</a>     
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -102,8 +103,8 @@ input[type=text]:focus, input[type=password]:focus {
         <div class="w3-container w3-center w3-round w3-pale-red " >
             <h3>อนุมัติการจองคิว</h3>
         </div>
-      <div style="overflow-x:auto;">
-     <table class="w3-table-all w3-hoverable w3-margin"style="width: 98%;">
+<div style="overflow-x:auto;">
+  <table class="w3-table-all w3-hoverable w3-margin"style="width: 98%;">
      <thead>
       <tr class="w3-light-grey">
         <th>ลำดับ</th>

@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<meta name="viewport" content="width=device-width, initial-scale=1">      
+<head>       
 <title>Service</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <style>
- /* จัดรูปแบบตำแหน่ง Logo */
- #img_container img{
+/* จัดรูปแบบตำแหน่ง Logo */
+#img_container img{
   height: 200px;
   margin: auto auto;
-  display: block;
+  display: block;}
+
+/* ตั้งค่า input fields */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 7px;
+    margin: 3px 0 15px 0;
+    display: inline-block;
+    background: white;
 }
- 
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color:#FFDEAD;
+    outline: none;
+}
+
 .bar {
   background-color:#F08080;
 }
@@ -67,16 +80,13 @@
 </div>
 </div>
 
-
-
 <br>
 <div class="w3-content w3-padding w3-card-4 w3-round " style="width: 100%;"> 
     <div class="w3-container w3-center w3-round w3-pale-red" >
-      <h3>รายการบริการ</h3>
+    <h3>รายการบริการ</h3>
     </div><p>
-  
- <!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->
-  <div class="w3-row-padding">
+<!-- /คอลัมภ์แสดงแต่ละรายการบริการ/  -->
+<div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">   
         <img src="img/7.jpg" alt="ทำสีผม" style="width:100%">
@@ -105,14 +115,26 @@
         <p class="w3-center"><a href="salon_servicedetail.php" class="w3-button w3-pale-red w3-round w3-padding-large w3-lagge w3-block">อบไอน้ำ</a></p>
       </div>
     </div>
-  </div>
+</div>
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+<b> 
 <footer class="w3-center  w3-padding-16 w3-opacity ">
   <div class="w3-xlarge w3-section">
    <a href="https://www.facebook.com/pimpa.saunkhaw" class="fa fa-facebook-official w3-hover-opacity w3-large " ></a>
    <a href="" class="fa fa-instagram w3-hover-opacity w3-large"> </a>
+
   </div>
  
 </footer>
